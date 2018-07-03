@@ -5,10 +5,10 @@
       location = "group:TicTacToe.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:TicTacToeServer/TicTacToeServer.xcodeproj">
+      location = "group:TicTacToeShared/TicTacToeShared.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:TicTacToeShared/TicTacToeShared.xcodeproj">
+      location = "group:TicTacToeServer/TicTacToeServer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

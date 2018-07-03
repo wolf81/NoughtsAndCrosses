@@ -1,8 +1,8 @@
 //
-//  WebSocketsClient.swift
+//  TicTacToeClient.swift
 //  TicTacToe
 //
-//  Created by Wolfgang Schreurs on 30/04/2018.
+//  Created by Wolfgang Schreurs on 03/07/2018.
 //  Copyright © 2018 Wolftrail. All rights reserved.
 //
 
@@ -25,7 +25,7 @@ class TicTacToeClient: WebSocketDelegate {
         let url = URL(string: "http://localhost:8181/game")!
         let request = URLRequest(url: url)
         self.socket = WebSocket(request: request, protocols: ["tictactoe"], stream: FoundationStream())
-
+        
         self.socket.delegate = self
     }
     
@@ -61,7 +61,7 @@ class TicTacToeClient: WebSocketDelegate {
             print("error: \(error)")
         }
     }
-
+    
     // MARK: - WebSocketDelegate
     
     func websocketDidConnect(socket: WebSocketClient) {
@@ -77,7 +77,7 @@ class TicTacToeClient: WebSocketDelegate {
             print("failed to convert text into data")
             return
         }
-    
+        
         do {
             let decoder = JSONDecoder()
             let message = try decoder.decode(Message.self, from: data)

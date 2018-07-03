@@ -2,53 +2,29 @@
 //  Game.swift
 //  TicTacToe
 //
-//  Created by Wolfgang Schreurs on 29/04/2018.
+//  Created by Wolfgang Schreurs on 03/07/2018.
 //  Copyright © 2018 Wolftrail. All rights reserved.
 //
 
 import Foundation
-import CoreGraphics
 import TicTacToeShared
-
-enum GameState {
-    case active // the player can play his turn
-    case connected // connected with the back-end
-    case disconnected // disconnected from the back-end
-    case playerWon // the player won
-    case playerLost // the player lost
-    case draw // the game ended in a draw
-    case waiting // waiting for the other player's turn
-    case stopped // game stopped, perhaps because the other player left the game
-    
-    var message: String {
-        switch self {
-        case .active: return "Your turn to play ..."
-        case .connected: return "Waiting for player to join"
-        case .disconnected: return "Disconnected"
-        case .playerWon: return "You won :)"
-        case .playerLost: return "You lost :("
-        case .draw: return "It's a draw :|"
-        case .waiting: return "Waiting for other player ..."
-        case .stopped: return "Player left the game"
-        }
-    }
-}
+import CoreGraphics
 
 class Game {
     static let sharedInstace = Game()
-
+    
     // We use an array of tiles to represent the game board.
     private(set) var board = [Tile]()
     
     // We use this client for interacting with the server.
     private (set) var client = TicTacToeClient()
-
+    
     // The state is initally disconnected - wait for the client to connect.
     private(set) var state: GameState = .disconnected
-
+    
     // This player instance represents the player behind this device.
     private (set) var player = Player()
-        
+    
     // The tile type for the currently active player
     private (set) var playerTile: Tile = .none
     
@@ -63,7 +39,7 @@ class Game {
         self.client.disconnect()
     }
     
-    func playTileAtPosition(_ position: CGPoint) {        
+    func playTileAtPosition(_ position: CGPoint) {
         let tilePosition = Int(position.y * 3 + position.x)
         
         let tile = self.board[tilePosition]
@@ -73,11 +49,11 @@ class Game {
             self.state = .waiting
         }
     }
-
+    
     // MARK: - Private
     
     private init() { /* singleton */ }
-
+    
     private func configurePlayerTileIfNeeded(_ playerTile: Tile) {
         let emptyTiles = board.filter({ $0 == .none })
         if emptyTiles.count == 9 {
@@ -113,8 +89,10 @@ extension Game: TicTacToeClientDelegate {
                 self.state = .draw
             }
         case .stop:
+            self.board = [Tile]()
+            
             self.playerTile = .none
-
+            
             self.state = .stopped
         case .turn:
             guard let activePlayer = message.player else {

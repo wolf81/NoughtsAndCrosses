@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  TicTacToe
 //
-//  Created by Wolfgang Schreurs on 29/04/2018.
+//  Created by Wolfgang Schreurs on 03/07/2018.
 //  Copyright © 2018 Wolftrail. All rights reserved.
 //
 
@@ -11,14 +11,10 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
-        // including entities and graphs.
         if let scene = GKScene(fileNamed: "GameScene") {
-            
             // Get the SKScene from the loaded GKScene
             if let sceneNode = scene.rootNode as! GameScene? {
                 
@@ -40,25 +36,12 @@ class GameViewController: UIViewController {
             }
         }
     }
-
-    override var shouldAutorotate: Bool {
-        return true
-    }
-
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .portrait
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-
-    override var prefersStatusBarHidden: Bool {
-        return true
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 }

@@ -1,8 +1,9 @@
 //
 //  Message.swift
-//  TicTacToeServer
+//  TicTacToeShared
 //
-//  Created by Wolfgang Schreurs on 09/05/2018.
+//  Created by Wolfgang Schreurs on 03/07/2018.
+//  Copyright © 2018 Wolftrail. All rights reserved.
 //
 
 import Foundation
@@ -29,8 +30,8 @@ public class Message: Codable {
         return Message(type: .join, board: nil, player: player)
     }
     
-    public static func stop(board: [Tile]) -> Message {
-        return Message(type: .stop, board: board)
+    public static func stop() -> Message {
+        return Message(type: .stop, board: nil)
     }
     
     public static func turn(board: [Tile], player: Player) -> Message {

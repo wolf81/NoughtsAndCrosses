@@ -2,9 +2,12 @@
 //  GameScene.swift
 //  TicTacToe
 //
-//  Created by Wolfgang Schreurs on 29/04/2018.
+//  Created by Wolfgang Schreurs on 03/07/2018.
 //  Copyright © 2018 Wolftrail. All rights reserved.
 //
+
+import SpriteKit
+import GameplayKit
 
 import SpriteKit
 import GameplayKit
@@ -40,8 +43,7 @@ class GameScene: SKScene {
             if let tilePosition = tilePositionOnGameBoardForPoint(pos) {
                 Game.sharedInstace.playTileAtPosition(tilePosition)
             }
-        case .connected: fallthrough
-        case .waiting: break
+        case .connected, .waiting: break
         default: Game.sharedInstace.start()
         }
     }
