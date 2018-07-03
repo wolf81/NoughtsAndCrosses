@@ -1,0 +1,3688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7906E73420EB68E600A52E12 /* TicTacToeShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7906E73320EB68E600A52E12 /* TicTacToeShared.framework */; };
+		7906E74020EB6DD500A52E12 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906E73F20EB6DD500A52E12 /* Game.swift */; };
+		7906E74220EB6E6A00A52E12 /* GameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906E74120EB6E6A00A52E12 /* GameHandler.swift */; };
+		OBJ_372 /* a_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* a_.c */; };
+		OBJ_373 /* aes_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* aes_.c */; };
+		OBJ_374 /* ameth_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* ameth_lib.c */; };
+		OBJ_375 /* asn1_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* asn1_.c */; };
+		OBJ_376 /* asn_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* asn_.c */; };
+		OBJ_377 /* b_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* b_dump.c */; };
+		OBJ_378 /* b_print.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* b_print.c */; };
+		OBJ_379 /* b_sock.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* b_sock.c */; };
+		OBJ_380 /* bf_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* bf_.c */; };
+		OBJ_381 /* bio_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* bio_.c */; };
+		OBJ_382 /* bn_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* bn_.c */; };
+		OBJ_383 /* bss_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* bss_.c */; };
+		OBJ_384 /* buf_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* buf_.c */; };
+		OBJ_385 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* buffer.c */; };
+		OBJ_386 /* by_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* by_.c */; };
+		OBJ_387 /* c_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* c_.c */; };
+		OBJ_388 /* camellia.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* camellia.c */; };
+		OBJ_389 /* cbc128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* cbc128.c */; };
+		OBJ_390 /* cbc3_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* cbc3_enc.c */; };
+		OBJ_391 /* cbc_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* cbc_.c */; };
+		OBJ_392 /* ccm128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* ccm128.c */; };
+		OBJ_393 /* cfb128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* cfb128.c */; };
+		OBJ_394 /* cfb64ede.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* cfb64ede.c */; };
+		OBJ_395 /* cfb64enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* cfb64enc.c */; };
+		OBJ_396 /* cfb_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* cfb_enc.c */; };
+		OBJ_397 /* cm_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* cm_.c */; };
+		OBJ_398 /* cmac.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* cmac.c */; };
+		OBJ_399 /* cmll_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* cmll_.c */; };
+		OBJ_400 /* cms_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* cms_.c */; };
+		OBJ_401 /* comp_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* comp_.c */; };
+		OBJ_402 /* conf_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* conf_.c */; };
+		OBJ_403 /* cpt_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* cpt_err.c */; };
+		OBJ_404 /* cryptlib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* cryptlib.c */; };
+		OBJ_405 /* ctr128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* ctr128.c */; };
+		OBJ_406 /* cversion.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* cversion.c */; };
+		OBJ_407 /* d1_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* d1_.c */; };
+		OBJ_408 /* d1_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* d1_lib.c */; };
+		OBJ_409 /* d2i_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* d2i_.c */; };
+		OBJ_410 /* des_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* des_enc.c */; };
+		OBJ_411 /* des_old.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* des_old.c */; };
+		OBJ_412 /* des_old2.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* des_old2.c */; };
+		OBJ_413 /* dh_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* dh_.c */; };
+		OBJ_414 /* digest.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* digest.c */; };
+		OBJ_415 /* dsa_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* dsa_.c */; };
+		OBJ_416 /* dso_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* dso_.c */; };
+		OBJ_417 /* e_4758cca.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* e_4758cca.c */; };
+		OBJ_418 /* e_4758cca_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* e_4758cca_err.c */; };
+		OBJ_419 /* e_aep.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* e_aep.c */; };
+		OBJ_420 /* e_aep_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* e_aep_err.c */; };
+		OBJ_421 /* e_aes.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* e_aes.c */; };
+		OBJ_422 /* e_aes_cbc_hmac_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* e_aes_cbc_hmac_sha1.c */; };
+		OBJ_423 /* e_aes_cbc_hmac_sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* e_aes_cbc_hmac_sha256.c */; };
+		OBJ_424 /* e_atalla.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* e_atalla.c */; };
+		OBJ_425 /* e_atalla_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* e_atalla_err.c */; };
+		OBJ_426 /* e_bf.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* e_bf.c */; };
+		OBJ_427 /* e_camellia.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* e_camellia.c */; };
+		OBJ_428 /* e_capi.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* e_capi.c */; };
+		OBJ_429 /* e_capi_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* e_capi_err.c */; };
+		OBJ_430 /* e_cast.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* e_cast.c */; };
+		OBJ_431 /* e_chil.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* e_chil.c */; };
+		OBJ_432 /* e_chil_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* e_chil_err.c */; };
+		OBJ_433 /* e_cswift.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* e_cswift.c */; };
+		OBJ_434 /* e_cswift_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* e_cswift_err.c */; };
+		OBJ_435 /* e_des.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* e_des.c */; };
+		OBJ_436 /* e_des3.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* e_des3.c */; };
+		OBJ_437 /* e_gmp.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* e_gmp.c */; };
+		OBJ_438 /* e_gmp_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* e_gmp_err.c */; };
+		OBJ_439 /* e_gost_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* e_gost_err.c */; };
+		OBJ_440 /* e_idea.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* e_idea.c */; };
+		OBJ_441 /* e_null.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* e_null.c */; };
+		OBJ_442 /* e_nuron.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* e_nuron.c */; };
+		OBJ_443 /* e_nuron_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* e_nuron_err.c */; };
+		OBJ_444 /* e_old.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* e_old.c */; };
+		OBJ_445 /* e_padlock.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* e_padlock.c */; };
+		OBJ_446 /* e_rc2.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* e_rc2.c */; };
+		OBJ_447 /* e_rc4.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* e_rc4.c */; };
+		OBJ_448 /* e_rc4_hmac_md5.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_178 /* e_rc4_hmac_md5.c */; };
+		OBJ_449 /* e_rc5.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* e_rc5.c */; };
+		OBJ_450 /* e_seed.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* e_seed.c */; };
+		OBJ_451 /* e_sureware.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* e_sureware.c */; };
+		OBJ_452 /* e_sureware_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* e_sureware_err.c */; };
+		OBJ_453 /* e_ubsec.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* e_ubsec.c */; };
+		OBJ_454 /* e_ubsec_err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* e_ubsec_err.c */; };
+		OBJ_455 /* e_xcbc_d.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* e_xcbc_d.c */; };
+		OBJ_456 /* ebcdic.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* ebcdic.c */; };
+		OBJ_457 /* ec2_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* ec2_.c */; };
+		OBJ_458 /* ec_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* ec_.c */; };
+		OBJ_459 /* ecb3_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* ecb3_enc.c */; };
+		OBJ_460 /* ecb_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* ecb_enc.c */; };
+		OBJ_461 /* ech_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* ech_.c */; };
+		OBJ_462 /* eck_prn.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* eck_prn.c */; };
+		OBJ_463 /* ecp_mont.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* ecp_mont.c */; };
+		OBJ_464 /* ecp_nist.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* ecp_nist.c */; };
+		OBJ_465 /* ecp_nistp224.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* ecp_nistp224.c */; };
+		OBJ_466 /* ecp_nistp256.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* ecp_nistp256.c */; };
+		OBJ_467 /* ecp_nistp521.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* ecp_nistp521.c */; };
+		OBJ_468 /* ecp_nistputil.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* ecp_nistputil.c */; };
+		OBJ_469 /* ecp_oct.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* ecp_oct.c */; };
+		OBJ_470 /* ecp_smpl.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_200 /* ecp_smpl.c */; };
+		OBJ_471 /* ecs_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_201 /* ecs_.c */; };
+		OBJ_472 /* ede_cbcm_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* ede_cbcm_enc.c */; };
+		OBJ_473 /* enc_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* enc_.c */; };
+		OBJ_474 /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_204 /* encode.c */; };
+		OBJ_475 /* eng_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_205 /* eng_.c */; };
+		OBJ_476 /* err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_206 /* err.c */; };
+		OBJ_477 /* err_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* err_.c */; };
+		OBJ_478 /* evp_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* evp_.c */; };
+		OBJ_479 /* ex_data.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* ex_data.c */; };
+		OBJ_480 /* f_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* f_.c */; };
+		OBJ_481 /* fcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_211 /* fcrypt.c */; };
+		OBJ_482 /* fcrypt_b.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* fcrypt_b.c */; };
+		OBJ_483 /* fips_ers.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_213 /* fips_ers.c */; };
+		OBJ_484 /* gcm128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_214 /* gcm128.c */; };
+		OBJ_485 /* gost2001.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_215 /* gost2001.c */; };
+		OBJ_486 /* gost2001_keyx.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_216 /* gost2001_keyx.c */; };
+		OBJ_487 /* gost89.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_217 /* gost89.c */; };
+		OBJ_488 /* gost94_keyx.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_218 /* gost94_keyx.c */; };
+		OBJ_489 /* gost_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_219 /* gost_.c */; };
+		OBJ_490 /* gosthash.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_220 /* gosthash.c */; };
+		OBJ_491 /* hm_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_221 /* hm_.c */; };
+		OBJ_492 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_222 /* hmac.c */; };
+		OBJ_493 /* i2d_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_223 /* i2d_.c */; };
+		OBJ_494 /* i_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_224 /* i_.c */; };
+		OBJ_495 /* krb5_asn.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_225 /* krb5_asn.c */; };
+		OBJ_496 /* kssl.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_226 /* kssl.c */; };
+		OBJ_497 /* lh_stats.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_227 /* lh_stats.c */; };
+		OBJ_498 /* lhash.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_228 /* lhash.c */; };
+		OBJ_499 /* m_dss.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_229 /* m_dss.c */; };
+		OBJ_500 /* m_dss1.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_230 /* m_dss1.c */; };
+		OBJ_501 /* m_ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_231 /* m_ecdsa.c */; };
+		OBJ_502 /* m_md2.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_232 /* m_md2.c */; };
+		OBJ_503 /* m_md4.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_233 /* m_md4.c */; };
+		OBJ_504 /* m_md5.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_234 /* m_md5.c */; };
+		OBJ_505 /* m_mdc2.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_235 /* m_mdc2.c */; };
+		OBJ_506 /* m_null.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_236 /* m_null.c */; };
+		OBJ_507 /* m_ripemd.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_237 /* m_ripemd.c */; };
+		OBJ_508 /* m_sha.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_238 /* m_sha.c */; };
+		OBJ_509 /* m_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_239 /* m_sha1.c */; };
+		OBJ_510 /* m_sigver.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_240 /* m_sigver.c */; };
+		OBJ_511 /* m_wp.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_241 /* m_wp.c */; };
+		OBJ_512 /* md4_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_242 /* md4_.c */; };
+		OBJ_513 /* md5_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_243 /* md5_.c */; };
+		OBJ_514 /* md_rand.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_244 /* md_rand.c */; };
+		OBJ_515 /* mdc2_one.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_245 /* mdc2_one.c */; };
+		OBJ_516 /* mdc2dgst.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_246 /* mdc2dgst.c */; };
+		OBJ_517 /* mem.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_247 /* mem.c */; };
+		OBJ_518 /* mem_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_248 /* mem_.c */; };
+		OBJ_519 /* n_pkey.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_249 /* n_pkey.c */; };
+		OBJ_520 /* names.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_250 /* names.c */; };
+		OBJ_521 /* nsseq.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_251 /* nsseq.c */; };
+		OBJ_522 /* o_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_252 /* o_.c */; };
+		OBJ_523 /* obj_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_253 /* obj_.c */; };
+		OBJ_524 /* ocsp_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_254 /* ocsp_.c */; };
+		OBJ_525 /* ofb128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_255 /* ofb128.c */; };
+		OBJ_526 /* ofb64ede.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_256 /* ofb64ede.c */; };
+		OBJ_527 /* ofb64enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_257 /* ofb64enc.c */; };
+		OBJ_528 /* ofb_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_258 /* ofb_enc.c */; };
+		OBJ_529 /* openbsd_hw.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_259 /* openbsd_hw.c */; };
+		OBJ_530 /* p12_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_260 /* p12_.c */; };
+		OBJ_531 /* p5_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_261 /* p5_.c */; };
+		OBJ_532 /* p8_pkey.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_262 /* p8_pkey.c */; };
+		OBJ_533 /* p_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_263 /* p_.c */; };
+		OBJ_534 /* pcbc_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_264 /* pcbc_enc.c */; };
+		OBJ_535 /* pcy_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_265 /* pcy_.c */; };
+		OBJ_536 /* pem_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_266 /* pem_.c */; };
+		OBJ_537 /* pk12err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_267 /* pk12err.c */; };
+		OBJ_538 /* pk7_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_268 /* pk7_.c */; };
+		OBJ_539 /* pkcs7err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_269 /* pkcs7err.c */; };
+		OBJ_540 /* pmeth_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_270 /* pmeth_.c */; };
+		OBJ_541 /* pqueue.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_271 /* pqueue.c */; };
+		OBJ_542 /* pvkfmt.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_272 /* pvkfmt.c */; };
+		OBJ_543 /* qud_cksm.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_273 /* qud_cksm.c */; };
+		OBJ_544 /* rand_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_274 /* rand_.c */; };
+		OBJ_545 /* randfile.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_275 /* randfile.c */; };
+		OBJ_546 /* rc2_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_276 /* rc2_.c */; };
+		OBJ_547 /* rc2cfb64.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_277 /* rc2cfb64.c */; };
+		OBJ_548 /* rc2ofb64.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_278 /* rc2ofb64.c */; };
+		OBJ_549 /* rc4_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_279 /* rc4_.c */; };
+		OBJ_550 /* read2pwd.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_280 /* read2pwd.c */; };
+		OBJ_551 /* rmd_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_281 /* rmd_.c */; };
+		OBJ_552 /* rpc_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_282 /* rpc_enc.c */; };
+		OBJ_553 /* rsa_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_283 /* rsa_.c */; };
+		OBJ_554 /* rsaz_exp.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_284 /* rsaz_exp.c */; };
+		OBJ_555 /* s23_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_285 /* s23_.c */; };
+		OBJ_556 /* s2_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_286 /* s2_.c */; };
+		OBJ_557 /* s3_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_287 /* s3_.c */; };
+		OBJ_558 /* seed.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_288 /* seed.c */; };
+		OBJ_559 /* seed_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_289 /* seed_.c */; };
+		OBJ_560 /* set_key.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_290 /* set_key.c */; };
+		OBJ_561 /* sha1_one.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_291 /* sha1_one.c */; };
+		OBJ_562 /* sha1dgst.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* sha1dgst.c */; };
+		OBJ_563 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_293 /* sha256.c */; };
+		OBJ_564 /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_294 /* sha512.c */; };
+		OBJ_565 /* sha_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_295 /* sha_.c */; };
+		OBJ_566 /* srp_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_296 /* srp_.c */; };
+		OBJ_567 /* ssl_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_297 /* ssl_.c */; };
+		OBJ_568 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_298 /* stack.c */; };
+		OBJ_569 /* str2key.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_299 /* str2key.c */; };
+		OBJ_570 /* t1_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_300 /* t1_.c */; };
+		OBJ_571 /* t_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_301 /* t_.c */; };
+		OBJ_572 /* tasn_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_302 /* tasn_.c */; };
+		OBJ_573 /* tb_asnmth.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_303 /* tb_asnmth.c */; };
+		OBJ_574 /* tb_cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_304 /* tb_cipher.c */; };
+		OBJ_575 /* tb_dh.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_305 /* tb_dh.c */; };
+		OBJ_576 /* tb_digest.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_306 /* tb_digest.c */; };
+		OBJ_577 /* tb_dsa.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_307 /* tb_dsa.c */; };
+		OBJ_578 /* tb_ecdh.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_308 /* tb_ecdh.c */; };
+		OBJ_579 /* tb_ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_309 /* tb_ecdsa.c */; };
+		OBJ_580 /* tb_pkmeth.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_310 /* tb_pkmeth.c */; };
+		OBJ_581 /* tb_rand.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_311 /* tb_rand.c */; };
+		OBJ_582 /* tb_rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_312 /* tb_rsa.c */; };
+		OBJ_583 /* tb_store.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_313 /* tb_store.c */; };
+		OBJ_584 /* th-lock.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_314 /* th-lock.c */; };
+		OBJ_585 /* tls_srp.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_315 /* tls_srp.c */; };
+		OBJ_586 /* ts_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_316 /* ts_.c */; };
+		OBJ_587 /* txt_db.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_317 /* txt_db.c */; };
+		OBJ_588 /* ui_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_318 /* ui_.c */; };
+		OBJ_589 /* uid.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_319 /* uid.c */; };
+		OBJ_590 /* v3_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_320 /* v3_.c */; };
+		OBJ_591 /* v3_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_321 /* v3_lib.c */; };
+		OBJ_592 /* v3err.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_322 /* v3err.c */; };
+		OBJ_593 /* wp_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_323 /* wp_.c */; };
+		OBJ_594 /* wrap128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_324 /* wrap128.c */; };
+		OBJ_595 /* x509_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_325 /* x509_.c */; };
+		OBJ_596 /* x509cset.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_326 /* x509cset.c */; };
+		OBJ_597 /* x509name.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_327 /* x509name.c */; };
+		OBJ_598 /* x509rset.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_328 /* x509rset.c */; };
+		OBJ_599 /* x509spki.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_329 /* x509spki.c */; };
+		OBJ_600 /* x509type.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_330 /* x509type.c */; };
+		OBJ_601 /* x_.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_331 /* x_.c */; };
+		OBJ_602 /* xcbc_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_332 /* xcbc_enc.c */; };
+		OBJ_603 /* xts128.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_333 /* xts128.c */; };
+		OBJ_610 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_337 /* Package.swift */; };
+		OBJ_616 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* http_parser.c */; };
+		OBJ_623 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* adler32.c */; };
+		OBJ_624 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* compress.c */; };
+		OBJ_625 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* crc32.c */; };
+		OBJ_626 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* deflate.c */; };
+		OBJ_627 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* gzclose.c */; };
+		OBJ_628 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* gzlib.c */; };
+		OBJ_629 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* gzread.c */; };
+		OBJ_630 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* gzwrite.c */; };
+		OBJ_631 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* infback.c */; };
+		OBJ_632 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* inffast.c */; };
+		OBJ_633 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* inflate.c */; };
+		OBJ_634 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* inftrees.c */; };
+		OBJ_635 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* trees.c */; };
+		OBJ_636 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* uncompr.c */; };
+		OBJ_637 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* zutil.c */; };
+		OBJ_644 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* Package.swift */; };
+		OBJ_650 /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* Algorithms.swift */; };
+		OBJ_651 /* ByteIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* ByteIO.swift */; };
+		OBJ_652 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* Extensions.swift */; };
+		OBJ_653 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* JWT.swift */; };
+		OBJ_654 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* Keys.swift */; };
+		OBJ_655 /* OpenSSLInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* OpenSSLInternal.swift */; };
+		OBJ_656 /* PerfectCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* PerfectCrypto.swift */; };
+		OBJ_658 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "COpenSSL::COpenSSL::Product" /* COpenSSL.framework */; };
+		OBJ_659 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectThread::PerfectThread::Product" /* PerfectThread.framework */; };
+		OBJ_660 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectLib::PerfectLib::Product" /* PerfectLib.framework */; };
+		OBJ_671 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* Package.swift */; };
+		OBJ_677 /* HTTPFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* HTTPFilter.swift */; };
+		OBJ_678 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* HTTPHeaders.swift */; };
+		OBJ_679 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* HTTPMethod.swift */; };
+		OBJ_680 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* HTTPRequest.swift */; };
+		OBJ_681 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* HTTPResponse.swift */; };
+		OBJ_682 /* MimeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* MimeReader.swift */; };
+		OBJ_683 /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* MimeType.swift */; };
+		OBJ_684 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Routing.swift */; };
+		OBJ_685 /* StaticFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* StaticFileHandler.swift */; };
+		OBJ_686 /* TypedRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* TypedRoutes.swift */; };
+		OBJ_688 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectNet::PerfectNet::Product" /* PerfectNet.framework */; };
+		OBJ_689 /* PerfectCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */; };
+		OBJ_690 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "COpenSSL::COpenSSL::Product" /* COpenSSL.framework */; };
+		OBJ_691 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectThread::PerfectThread::Product" /* PerfectThread.framework */; };
+		OBJ_692 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectLib::PerfectLib::Product" /* PerfectLib.framework */; };
+		OBJ_704 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Package.swift */; };
+		OBJ_710 /* HTTP11Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* HTTP11Request.swift */; };
+		OBJ_711 /* HTTP11Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* HTTP11Response.swift */; };
+		OBJ_712 /* HPACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* HPACK.swift */; };
+		OBJ_713 /* HTTP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* HTTP2.swift */; };
+		OBJ_714 /* HTTP2Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* HTTP2Client.swift */; };
+		OBJ_715 /* HTTP2Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* HTTP2Frame.swift */; };
+		OBJ_716 /* HTTP2FrameReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* HTTP2FrameReader.swift */; };
+		OBJ_717 /* HTTP2FrameWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* HTTP2FrameWriter.swift */; };
+		OBJ_718 /* HTTP2PrefaceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* HTTP2PrefaceValidator.swift */; };
+		OBJ_719 /* HTTP2Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* HTTP2Request.swift */; };
+		OBJ_720 /* HTTP2Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* HTTP2Response.swift */; };
+		OBJ_721 /* HTTP2Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* HTTP2Session.swift */; };
+		OBJ_722 /* HTTP2SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* HTTP2SessionSettings.swift */; };
+		OBJ_723 /* HTTPContentCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* HTTPContentCompression.swift */; };
+		OBJ_724 /* HTTPMultiplexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* HTTPMultiplexer.swift */; };
+		OBJ_725 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* HTTPServer.swift */; };
+		OBJ_726 /* HTTPServerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* HTTPServerEx.swift */; };
+		OBJ_727 /* HTTPServerExConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* HTTPServerExConfig.swift */; };
+		OBJ_729 /* PerfectCZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */; };
+		OBJ_730 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectHTTP::PerfectHTTP::Product" /* PerfectHTTP.framework */; };
+		OBJ_731 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectNet::PerfectNet::Product" /* PerfectNet.framework */; };
+		OBJ_732 /* PerfectCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */; };
+		OBJ_733 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "COpenSSL::COpenSSL::Product" /* COpenSSL.framework */; };
+		OBJ_734 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectThread::PerfectThread::Product" /* PerfectThread.framework */; };
+		OBJ_735 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectLib::PerfectLib::Product" /* PerfectLib.framework */; };
+		OBJ_736 /* PerfectCHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectHTTPServer::PerfectCHTTPParser::Product" /* PerfectCHTTPParser.framework */; };
+		OBJ_750 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Package.swift */; };
+		OBJ_755 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_345 /* Bytes.swift */; };
+		OBJ_756 /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_346 /* Dir.swift */; };
+		OBJ_757 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_347 /* File.swift */; };
+		OBJ_758 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_348 /* JSONConvertible.swift */; };
+		OBJ_759 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_349 /* Log.swift */; };
+		OBJ_760 /* PerfectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_350 /* PerfectError.swift */; };
+		OBJ_761 /* PerfectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_351 /* PerfectServer.swift */; };
+		OBJ_762 /* SysProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_352 /* SysProcess.swift */; };
+		OBJ_763 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_353 /* Utilities.swift */; };
+		OBJ_770 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_354 /* Package.swift */; };
+		OBJ_775 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* Net.swift */; };
+		OBJ_776 /* NetAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* NetAddress.swift */; };
+		OBJ_777 /* NetEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* NetEvent.swift */; };
+		OBJ_778 /* NetNamedPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* NetNamedPipe.swift */; };
+		OBJ_779 /* NetTCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* NetTCP.swift */; };
+		OBJ_780 /* NetTCPSSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* NetTCPSSL.swift */; };
+		OBJ_781 /* NetUDP.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* NetUDP.swift */; };
+		OBJ_783 /* PerfectCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */; };
+		OBJ_784 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "COpenSSL::COpenSSL::Product" /* COpenSSL.framework */; };
+		OBJ_785 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectThread::PerfectThread::Product" /* PerfectThread.framework */; };
+		OBJ_786 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectLib::PerfectLib::Product" /* PerfectLib.framework */; };
+		OBJ_796 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* Package.swift */; };
+		OBJ_801 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_340 /* Promise.swift */; };
+		OBJ_802 /* ThreadQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_341 /* ThreadQueue.swift */; };
+		OBJ_803 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_342 /* Threading.swift */; };
+		OBJ_810 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_339 /* Package.swift */; };
+		OBJ_816 /* WebSocketHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* WebSocketHandler.swift */; };
+		OBJ_818 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectHTTP::PerfectHTTP::Product" /* PerfectHTTP.framework */; };
+		OBJ_819 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectNet::PerfectNet::Product" /* PerfectNet.framework */; };
+		OBJ_820 /* PerfectCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */; };
+		OBJ_821 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "COpenSSL::COpenSSL::Product" /* COpenSSL.framework */; };
+		OBJ_822 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectThread::PerfectThread::Product" /* PerfectThread.framework */; };
+		OBJ_823 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectLib::PerfectLib::Product" /* PerfectLib.framework */; };
+		OBJ_835 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Package.swift */; };
+		OBJ_841 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* main.swift */; };
+		OBJ_843 /* PerfectWebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectWebSockets::PerfectWebSockets::Product" /* PerfectWebSockets.framework */; };
+		OBJ_844 /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectHTTPServer::PerfectHTTPServer::Product" /* PerfectHTTPServer.framework */; };
+		OBJ_845 /* PerfectCZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */; };
+		OBJ_846 /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectHTTP::PerfectHTTP::Product" /* PerfectHTTP.framework */; };
+		OBJ_847 /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectNet::PerfectNet::Product" /* PerfectNet.framework */; };
+		OBJ_848 /* PerfectCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */; };
+		OBJ_849 /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "COpenSSL::COpenSSL::Product" /* COpenSSL.framework */; };
+		OBJ_850 /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectThread::PerfectThread::Product" /* PerfectThread.framework */; };
+		OBJ_851 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectLib::PerfectLib::Product" /* PerfectLib.framework */; };
+		OBJ_852 /* PerfectCHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectHTTPServer::PerfectCHTTPParser::Product" /* PerfectCHTTPParser.framework */; };
+		OBJ_868 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7906E70E20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTP::PerfectHTTP";
+			remoteInfo = PerfectHTTP;
+		};
+		7906E70F20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectNet::PerfectNet";
+			remoteInfo = PerfectNet;
+		};
+		7906E71020EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
+			remoteInfo = PerfectCrypto;
+		};
+		7906E71120EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "COpenSSL::COpenSSL";
+			remoteInfo = COpenSSL;
+		};
+		7906E71220EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectThread::PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		7906E71320EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectLib::PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+		7906E71420EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "COpenSSL::COpenSSL";
+			remoteInfo = COpenSSL;
+		};
+		7906E71520EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectThread::PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		7906E71620EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectLib::PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+		7906E71720EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
+			remoteInfo = PerfectCrypto;
+		};
+		7906E71820EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "COpenSSL::COpenSSL";
+			remoteInfo = COpenSSL;
+		};
+		7906E71920EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectThread::PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		7906E71A20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectLib::PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+		7906E71B20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectNet::PerfectNet";
+			remoteInfo = PerfectNet;
+		};
+		7906E71C20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
+			remoteInfo = PerfectCrypto;
+		};
+		7906E71D20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "COpenSSL::COpenSSL";
+			remoteInfo = COpenSSL;
+		};
+		7906E71E20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectThread::PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		7906E71F20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectLib::PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+		7906E72020EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectWebSockets::PerfectWebSockets";
+			remoteInfo = PerfectWebSockets;
+		};
+		7906E72120EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTPServer::PerfectHTTPServer";
+			remoteInfo = PerfectHTTPServer;
+		};
+		7906E72220EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCZlib::PerfectCZlib";
+			remoteInfo = PerfectCZlib;
+		};
+		7906E72320EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTP::PerfectHTTP";
+			remoteInfo = PerfectHTTP;
+		};
+		7906E72420EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectNet::PerfectNet";
+			remoteInfo = PerfectNet;
+		};
+		7906E72520EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
+			remoteInfo = PerfectCrypto;
+		};
+		7906E72620EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "COpenSSL::COpenSSL";
+			remoteInfo = COpenSSL;
+		};
+		7906E72720EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectThread::PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		7906E72820EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectLib::PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+		7906E72920EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTPServer::PerfectCHTTPParser";
+			remoteInfo = PerfectCHTTPParser;
+		};
+		7906E72A20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCZlib::PerfectCZlib";
+			remoteInfo = PerfectCZlib;
+		};
+		7906E72B20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTP::PerfectHTTP";
+			remoteInfo = PerfectHTTP;
+		};
+		7906E72C20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectNet::PerfectNet";
+			remoteInfo = PerfectNet;
+		};
+		7906E72D20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectCrypto::PerfectCrypto";
+			remoteInfo = PerfectCrypto;
+		};
+		7906E72E20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "COpenSSL::COpenSSL";
+			remoteInfo = COpenSSL;
+		};
+		7906E72F20EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectThread::PerfectThread";
+			remoteInfo = PerfectThread;
+		};
+		7906E73020EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectLib::PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+		7906E73120EB68D700A52E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectHTTPServer::PerfectCHTTPParser";
+			remoteInfo = PerfectCHTTPParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7906E73320EB68E600A52E12 /* TicTacToeShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TicTacToeShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7906E73F20EB6DD500A52E12 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7906E74120EB6E6A00A52E12 /* GameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHandler.swift; sourceTree = "<group>"; };
+		"COpenSSL::COpenSSL::Product" /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_102 /* a_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_.c; sourceTree = "<group>"; };
+		OBJ_103 /* aes_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_.c; sourceTree = "<group>"; };
+		OBJ_104 /* ameth_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ameth_lib.c; sourceTree = "<group>"; };
+		OBJ_105 /* asn1_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn1_.c; sourceTree = "<group>"; };
+		OBJ_106 /* asn_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = asn_.c; sourceTree = "<group>"; };
+		OBJ_107 /* b_dump.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = b_dump.c; sourceTree = "<group>"; };
+		OBJ_108 /* b_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = b_print.c; sourceTree = "<group>"; };
+		OBJ_109 /* b_sock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = b_sock.c; sourceTree = "<group>"; };
+		OBJ_110 /* bf_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bf_.c; sourceTree = "<group>"; };
+		OBJ_111 /* bio_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_.c; sourceTree = "<group>"; };
+		OBJ_112 /* bn_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bn_.c; sourceTree = "<group>"; };
+		OBJ_113 /* bss_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bss_.c; sourceTree = "<group>"; };
+		OBJ_114 /* buf_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buf_.c; sourceTree = "<group>"; };
+		OBJ_115 /* buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		OBJ_116 /* by_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = by_.c; sourceTree = "<group>"; };
+		OBJ_117 /* c_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = c_.c; sourceTree = "<group>"; };
+		OBJ_118 /* camellia.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = camellia.c; sourceTree = "<group>"; };
+		OBJ_119 /* cbc128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc128.c; sourceTree = "<group>"; };
+		OBJ_12 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-WebSockets.git--5144200636556942371/Package.swift"; sourceTree = "<group>"; };
+		OBJ_120 /* cbc3_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc3_enc.c; sourceTree = "<group>"; };
+		OBJ_121 /* cbc_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cbc_.c; sourceTree = "<group>"; };
+		OBJ_122 /* ccm128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ccm128.c; sourceTree = "<group>"; };
+		OBJ_123 /* cfb128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb128.c; sourceTree = "<group>"; };
+		OBJ_124 /* cfb64ede.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb64ede.c; sourceTree = "<group>"; };
+		OBJ_125 /* cfb64enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb64enc.c; sourceTree = "<group>"; };
+		OBJ_126 /* cfb_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfb_enc.c; sourceTree = "<group>"; };
+		OBJ_127 /* cm_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cm_.c; sourceTree = "<group>"; };
+		OBJ_128 /* cmac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmac.c; sourceTree = "<group>"; };
+		OBJ_129 /* cmll_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmll_.c; sourceTree = "<group>"; };
+		OBJ_13 /* WebSocketHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketHandler.swift; sourceTree = "<group>"; };
+		OBJ_130 /* cms_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cms_.c; sourceTree = "<group>"; };
+		OBJ_131 /* comp_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comp_.c; sourceTree = "<group>"; };
+		OBJ_132 /* conf_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conf_.c; sourceTree = "<group>"; };
+		OBJ_133 /* cpt_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpt_err.c; sourceTree = "<group>"; };
+		OBJ_134 /* cryptlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cryptlib.c; sourceTree = "<group>"; };
+		OBJ_135 /* ctr128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ctr128.c; sourceTree = "<group>"; };
+		OBJ_136 /* cversion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cversion.c; sourceTree = "<group>"; };
+		OBJ_137 /* d1_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_.c; sourceTree = "<group>"; };
+		OBJ_138 /* d1_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d1_lib.c; sourceTree = "<group>"; };
+		OBJ_139 /* d2i_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = d2i_.c; sourceTree = "<group>"; };
+		OBJ_140 /* des_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = des_enc.c; sourceTree = "<group>"; };
+		OBJ_141 /* des_old.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = des_old.c; sourceTree = "<group>"; };
+		OBJ_142 /* des_old2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = des_old2.c; sourceTree = "<group>"; };
+		OBJ_143 /* dh_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dh_.c; sourceTree = "<group>"; };
+		OBJ_144 /* digest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = digest.c; sourceTree = "<group>"; };
+		OBJ_145 /* dsa_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsa_.c; sourceTree = "<group>"; };
+		OBJ_146 /* dso_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso_.c; sourceTree = "<group>"; };
+		OBJ_147 /* e_4758cca.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_4758cca.c; sourceTree = "<group>"; };
+		OBJ_148 /* e_4758cca_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_4758cca_err.c; sourceTree = "<group>"; };
+		OBJ_149 /* e_aep.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aep.c; sourceTree = "<group>"; };
+		OBJ_150 /* e_aep_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aep_err.c; sourceTree = "<group>"; };
+		OBJ_151 /* e_aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes.c; sourceTree = "<group>"; };
+		OBJ_152 /* e_aes_cbc_hmac_sha1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes_cbc_hmac_sha1.c; sourceTree = "<group>"; };
+		OBJ_153 /* e_aes_cbc_hmac_sha256.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes_cbc_hmac_sha256.c; sourceTree = "<group>"; };
+		OBJ_154 /* e_atalla.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_atalla.c; sourceTree = "<group>"; };
+		OBJ_155 /* e_atalla_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_atalla_err.c; sourceTree = "<group>"; };
+		OBJ_156 /* e_bf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_bf.c; sourceTree = "<group>"; };
+		OBJ_157 /* e_camellia.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_camellia.c; sourceTree = "<group>"; };
+		OBJ_158 /* e_capi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_capi.c; sourceTree = "<group>"; };
+		OBJ_159 /* e_capi_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_capi_err.c; sourceTree = "<group>"; };
+		OBJ_160 /* e_cast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_cast.c; sourceTree = "<group>"; };
+		OBJ_161 /* e_chil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_chil.c; sourceTree = "<group>"; };
+		OBJ_162 /* e_chil_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_chil_err.c; sourceTree = "<group>"; };
+		OBJ_163 /* e_cswift.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_cswift.c; sourceTree = "<group>"; };
+		OBJ_164 /* e_cswift_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_cswift_err.c; sourceTree = "<group>"; };
+		OBJ_165 /* e_des.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_des.c; sourceTree = "<group>"; };
+		OBJ_166 /* e_des3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_des3.c; sourceTree = "<group>"; };
+		OBJ_167 /* e_gmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_gmp.c; sourceTree = "<group>"; };
+		OBJ_168 /* e_gmp_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_gmp_err.c; sourceTree = "<group>"; };
+		OBJ_169 /* e_gost_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_gost_err.c; sourceTree = "<group>"; };
+		OBJ_17 /* HTTP11Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP11Request.swift; sourceTree = "<group>"; };
+		OBJ_170 /* e_idea.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_idea.c; sourceTree = "<group>"; };
+		OBJ_171 /* e_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_null.c; sourceTree = "<group>"; };
+		OBJ_172 /* e_nuron.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_nuron.c; sourceTree = "<group>"; };
+		OBJ_173 /* e_nuron_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_nuron_err.c; sourceTree = "<group>"; };
+		OBJ_174 /* e_old.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_old.c; sourceTree = "<group>"; };
+		OBJ_175 /* e_padlock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_padlock.c; sourceTree = "<group>"; };
+		OBJ_176 /* e_rc2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc2.c; sourceTree = "<group>"; };
+		OBJ_177 /* e_rc4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc4.c; sourceTree = "<group>"; };
+		OBJ_178 /* e_rc4_hmac_md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc4_hmac_md5.c; sourceTree = "<group>"; };
+		OBJ_179 /* e_rc5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc5.c; sourceTree = "<group>"; };
+		OBJ_18 /* HTTP11Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP11Response.swift; sourceTree = "<group>"; };
+		OBJ_180 /* e_seed.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_seed.c; sourceTree = "<group>"; };
+		OBJ_181 /* e_sureware.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_sureware.c; sourceTree = "<group>"; };
+		OBJ_182 /* e_sureware_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_sureware_err.c; sourceTree = "<group>"; };
+		OBJ_183 /* e_ubsec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_ubsec.c; sourceTree = "<group>"; };
+		OBJ_184 /* e_ubsec_err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_ubsec_err.c; sourceTree = "<group>"; };
+		OBJ_185 /* e_xcbc_d.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_xcbc_d.c; sourceTree = "<group>"; };
+		OBJ_186 /* ebcdic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ebcdic.c; sourceTree = "<group>"; };
+		OBJ_187 /* ec2_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec2_.c; sourceTree = "<group>"; };
+		OBJ_188 /* ec_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_.c; sourceTree = "<group>"; };
+		OBJ_189 /* ecb3_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecb3_enc.c; sourceTree = "<group>"; };
+		OBJ_190 /* ecb_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecb_enc.c; sourceTree = "<group>"; };
+		OBJ_191 /* ech_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ech_.c; sourceTree = "<group>"; };
+		OBJ_192 /* eck_prn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eck_prn.c; sourceTree = "<group>"; };
+		OBJ_193 /* ecp_mont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_mont.c; sourceTree = "<group>"; };
+		OBJ_194 /* ecp_nist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nist.c; sourceTree = "<group>"; };
+		OBJ_195 /* ecp_nistp224.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistp224.c; sourceTree = "<group>"; };
+		OBJ_196 /* ecp_nistp256.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistp256.c; sourceTree = "<group>"; };
+		OBJ_197 /* ecp_nistp521.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistp521.c; sourceTree = "<group>"; };
+		OBJ_198 /* ecp_nistputil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_nistputil.c; sourceTree = "<group>"; };
+		OBJ_199 /* ecp_oct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_oct.c; sourceTree = "<group>"; };
+		OBJ_20 /* HPACK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPACK.swift; sourceTree = "<group>"; };
+		OBJ_200 /* ecp_smpl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecp_smpl.c; sourceTree = "<group>"; };
+		OBJ_201 /* ecs_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs_.c; sourceTree = "<group>"; };
+		OBJ_202 /* ede_cbcm_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ede_cbcm_enc.c; sourceTree = "<group>"; };
+		OBJ_203 /* enc_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enc_.c; sourceTree = "<group>"; };
+		OBJ_204 /* encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encode.c; sourceTree = "<group>"; };
+		OBJ_205 /* eng_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = eng_.c; sourceTree = "<group>"; };
+		OBJ_206 /* err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = err.c; sourceTree = "<group>"; };
+		OBJ_207 /* err_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = err_.c; sourceTree = "<group>"; };
+		OBJ_208 /* evp_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = evp_.c; sourceTree = "<group>"; };
+		OBJ_209 /* ex_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_data.c; sourceTree = "<group>"; };
+		OBJ_21 /* HTTP2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2.swift; sourceTree = "<group>"; };
+		OBJ_210 /* f_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f_.c; sourceTree = "<group>"; };
+		OBJ_211 /* fcrypt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fcrypt.c; sourceTree = "<group>"; };
+		OBJ_212 /* fcrypt_b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fcrypt_b.c; sourceTree = "<group>"; };
+		OBJ_213 /* fips_ers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fips_ers.c; sourceTree = "<group>"; };
+		OBJ_214 /* gcm128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gcm128.c; sourceTree = "<group>"; };
+		OBJ_215 /* gost2001.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost2001.c; sourceTree = "<group>"; };
+		OBJ_216 /* gost2001_keyx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost2001_keyx.c; sourceTree = "<group>"; };
+		OBJ_217 /* gost89.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost89.c; sourceTree = "<group>"; };
+		OBJ_218 /* gost94_keyx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost94_keyx.c; sourceTree = "<group>"; };
+		OBJ_219 /* gost_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gost_.c; sourceTree = "<group>"; };
+		OBJ_22 /* HTTP2Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2Client.swift; sourceTree = "<group>"; };
+		OBJ_220 /* gosthash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gosthash.c; sourceTree = "<group>"; };
+		OBJ_221 /* hm_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hm_.c; sourceTree = "<group>"; };
+		OBJ_222 /* hmac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		OBJ_223 /* i2d_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i2d_.c; sourceTree = "<group>"; };
+		OBJ_224 /* i_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = i_.c; sourceTree = "<group>"; };
+		OBJ_225 /* krb5_asn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = krb5_asn.c; sourceTree = "<group>"; };
+		OBJ_226 /* kssl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kssl.c; sourceTree = "<group>"; };
+		OBJ_227 /* lh_stats.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lh_stats.c; sourceTree = "<group>"; };
+		OBJ_228 /* lhash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lhash.c; sourceTree = "<group>"; };
+		OBJ_229 /* m_dss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_dss.c; sourceTree = "<group>"; };
+		OBJ_23 /* HTTP2Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2Frame.swift; sourceTree = "<group>"; };
+		OBJ_230 /* m_dss1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_dss1.c; sourceTree = "<group>"; };
+		OBJ_231 /* m_ecdsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_ecdsa.c; sourceTree = "<group>"; };
+		OBJ_232 /* m_md2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_md2.c; sourceTree = "<group>"; };
+		OBJ_233 /* m_md4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_md4.c; sourceTree = "<group>"; };
+		OBJ_234 /* m_md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_md5.c; sourceTree = "<group>"; };
+		OBJ_235 /* m_mdc2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_mdc2.c; sourceTree = "<group>"; };
+		OBJ_236 /* m_null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_null.c; sourceTree = "<group>"; };
+		OBJ_237 /* m_ripemd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_ripemd.c; sourceTree = "<group>"; };
+		OBJ_238 /* m_sha.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_sha.c; sourceTree = "<group>"; };
+		OBJ_239 /* m_sha1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_sha1.c; sourceTree = "<group>"; };
+		OBJ_24 /* HTTP2FrameReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2FrameReader.swift; sourceTree = "<group>"; };
+		OBJ_240 /* m_sigver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_sigver.c; sourceTree = "<group>"; };
+		OBJ_241 /* m_wp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_wp.c; sourceTree = "<group>"; };
+		OBJ_242 /* md4_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md4_.c; sourceTree = "<group>"; };
+		OBJ_243 /* md5_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md5_.c; sourceTree = "<group>"; };
+		OBJ_244 /* md_rand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md_rand.c; sourceTree = "<group>"; };
+		OBJ_245 /* mdc2_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mdc2_one.c; sourceTree = "<group>"; };
+		OBJ_246 /* mdc2dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mdc2dgst.c; sourceTree = "<group>"; };
+		OBJ_247 /* mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mem.c; sourceTree = "<group>"; };
+		OBJ_248 /* mem_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mem_.c; sourceTree = "<group>"; };
+		OBJ_249 /* n_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = n_pkey.c; sourceTree = "<group>"; };
+		OBJ_25 /* HTTP2FrameWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2FrameWriter.swift; sourceTree = "<group>"; };
+		OBJ_250 /* names.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = names.c; sourceTree = "<group>"; };
+		OBJ_251 /* nsseq.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nsseq.c; sourceTree = "<group>"; };
+		OBJ_252 /* o_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = o_.c; sourceTree = "<group>"; };
+		OBJ_253 /* obj_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = obj_.c; sourceTree = "<group>"; };
+		OBJ_254 /* ocsp_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ocsp_.c; sourceTree = "<group>"; };
+		OBJ_255 /* ofb128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb128.c; sourceTree = "<group>"; };
+		OBJ_256 /* ofb64ede.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb64ede.c; sourceTree = "<group>"; };
+		OBJ_257 /* ofb64enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb64enc.c; sourceTree = "<group>"; };
+		OBJ_258 /* ofb_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ofb_enc.c; sourceTree = "<group>"; };
+		OBJ_259 /* openbsd_hw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = openbsd_hw.c; sourceTree = "<group>"; };
+		OBJ_26 /* HTTP2PrefaceValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2PrefaceValidator.swift; sourceTree = "<group>"; };
+		OBJ_260 /* p12_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p12_.c; sourceTree = "<group>"; };
+		OBJ_261 /* p5_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p5_.c; sourceTree = "<group>"; };
+		OBJ_262 /* p8_pkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p8_pkey.c; sourceTree = "<group>"; };
+		OBJ_263 /* p_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_.c; sourceTree = "<group>"; };
+		OBJ_264 /* pcbc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcbc_enc.c; sourceTree = "<group>"; };
+		OBJ_265 /* pcy_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pcy_.c; sourceTree = "<group>"; };
+		OBJ_266 /* pem_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pem_.c; sourceTree = "<group>"; };
+		OBJ_267 /* pk12err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk12err.c; sourceTree = "<group>"; };
+		OBJ_268 /* pk7_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pk7_.c; sourceTree = "<group>"; };
+		OBJ_269 /* pkcs7err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pkcs7err.c; sourceTree = "<group>"; };
+		OBJ_27 /* HTTP2Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2Request.swift; sourceTree = "<group>"; };
+		OBJ_270 /* pmeth_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pmeth_.c; sourceTree = "<group>"; };
+		OBJ_271 /* pqueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pqueue.c; sourceTree = "<group>"; };
+		OBJ_272 /* pvkfmt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pvkfmt.c; sourceTree = "<group>"; };
+		OBJ_273 /* qud_cksm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = qud_cksm.c; sourceTree = "<group>"; };
+		OBJ_274 /* rand_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_.c; sourceTree = "<group>"; };
+		OBJ_275 /* randfile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = randfile.c; sourceTree = "<group>"; };
+		OBJ_276 /* rc2_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2_.c; sourceTree = "<group>"; };
+		OBJ_277 /* rc2cfb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2cfb64.c; sourceTree = "<group>"; };
+		OBJ_278 /* rc2ofb64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc2ofb64.c; sourceTree = "<group>"; };
+		OBJ_279 /* rc4_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rc4_.c; sourceTree = "<group>"; };
+		OBJ_28 /* HTTP2Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2Response.swift; sourceTree = "<group>"; };
+		OBJ_280 /* read2pwd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = read2pwd.c; sourceTree = "<group>"; };
+		OBJ_281 /* rmd_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rmd_.c; sourceTree = "<group>"; };
+		OBJ_282 /* rpc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rpc_enc.c; sourceTree = "<group>"; };
+		OBJ_283 /* rsa_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsa_.c; sourceTree = "<group>"; };
+		OBJ_284 /* rsaz_exp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rsaz_exp.c; sourceTree = "<group>"; };
+		OBJ_285 /* s23_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s23_.c; sourceTree = "<group>"; };
+		OBJ_286 /* s2_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s2_.c; sourceTree = "<group>"; };
+		OBJ_287 /* s3_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = s3_.c; sourceTree = "<group>"; };
+		OBJ_288 /* seed.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seed.c; sourceTree = "<group>"; };
+		OBJ_289 /* seed_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seed_.c; sourceTree = "<group>"; };
+		OBJ_29 /* HTTP2Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2Session.swift; sourceTree = "<group>"; };
+		OBJ_290 /* set_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = set_key.c; sourceTree = "<group>"; };
+		OBJ_291 /* sha1_one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha1_one.c; sourceTree = "<group>"; };
+		OBJ_292 /* sha1dgst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha1dgst.c; sourceTree = "<group>"; };
+		OBJ_293 /* sha256.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		OBJ_294 /* sha512.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		OBJ_295 /* sha_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha_.c; sourceTree = "<group>"; };
+		OBJ_296 /* srp_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = srp_.c; sourceTree = "<group>"; };
+		OBJ_297 /* ssl_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ssl_.c; sourceTree = "<group>"; };
+		OBJ_298 /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		OBJ_299 /* str2key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = str2key.c; sourceTree = "<group>"; };
+		OBJ_30 /* HTTP2SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP2SessionSettings.swift; sourceTree = "<group>"; };
+		OBJ_300 /* t1_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t1_.c; sourceTree = "<group>"; };
+		OBJ_301 /* t_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = t_.c; sourceTree = "<group>"; };
+		OBJ_302 /* tasn_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_.c; sourceTree = "<group>"; };
+		OBJ_303 /* tb_asnmth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_asnmth.c; sourceTree = "<group>"; };
+		OBJ_304 /* tb_cipher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_cipher.c; sourceTree = "<group>"; };
+		OBJ_305 /* tb_dh.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_dh.c; sourceTree = "<group>"; };
+		OBJ_306 /* tb_digest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_digest.c; sourceTree = "<group>"; };
+		OBJ_307 /* tb_dsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_dsa.c; sourceTree = "<group>"; };
+		OBJ_308 /* tb_ecdh.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_ecdh.c; sourceTree = "<group>"; };
+		OBJ_309 /* tb_ecdsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_ecdsa.c; sourceTree = "<group>"; };
+		OBJ_31 /* HTTPContentCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPContentCompression.swift; sourceTree = "<group>"; };
+		OBJ_310 /* tb_pkmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_pkmeth.c; sourceTree = "<group>"; };
+		OBJ_311 /* tb_rand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_rand.c; sourceTree = "<group>"; };
+		OBJ_312 /* tb_rsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_rsa.c; sourceTree = "<group>"; };
+		OBJ_313 /* tb_store.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tb_store.c; sourceTree = "<group>"; };
+		OBJ_314 /* th-lock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "th-lock.c"; sourceTree = "<group>"; };
+		OBJ_315 /* tls_srp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tls_srp.c; sourceTree = "<group>"; };
+		OBJ_316 /* ts_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ts_.c; sourceTree = "<group>"; };
+		OBJ_317 /* txt_db.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = txt_db.c; sourceTree = "<group>"; };
+		OBJ_318 /* ui_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ui_.c; sourceTree = "<group>"; };
+		OBJ_319 /* uid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uid.c; sourceTree = "<group>"; };
+		OBJ_32 /* HTTPMultiplexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMultiplexer.swift; sourceTree = "<group>"; };
+		OBJ_320 /* v3_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_.c; sourceTree = "<group>"; };
+		OBJ_321 /* v3_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3_lib.c; sourceTree = "<group>"; };
+		OBJ_322 /* v3err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v3err.c; sourceTree = "<group>"; };
+		OBJ_323 /* wp_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wp_.c; sourceTree = "<group>"; };
+		OBJ_324 /* wrap128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wrap128.c; sourceTree = "<group>"; };
+		OBJ_325 /* x509_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509_.c; sourceTree = "<group>"; };
+		OBJ_326 /* x509cset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509cset.c; sourceTree = "<group>"; };
+		OBJ_327 /* x509name.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509name.c; sourceTree = "<group>"; };
+		OBJ_328 /* x509rset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509rset.c; sourceTree = "<group>"; };
+		OBJ_329 /* x509spki.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509spki.c; sourceTree = "<group>"; };
+		OBJ_33 /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
+		OBJ_330 /* x509type.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x509type.c; sourceTree = "<group>"; };
+		OBJ_331 /* x_.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = x_.c; sourceTree = "<group>"; };
+		OBJ_332 /* xcbc_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xcbc_enc.c; sourceTree = "<group>"; };
+		OBJ_333 /* xts128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xts128.c; sourceTree = "<group>"; };
+		OBJ_335 /* openssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = "<group>"; };
+		OBJ_336 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_337 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/Package.swift"; sourceTree = "<group>"; };
+		OBJ_339 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-Thread.git-6541237758607105655/Package.swift"; sourceTree = "<group>"; };
+		OBJ_34 /* HTTPServerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerEx.swift; sourceTree = "<group>"; };
+		OBJ_340 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		OBJ_341 /* ThreadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadQueue.swift; sourceTree = "<group>"; };
+		OBJ_342 /* Threading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
+		OBJ_345 /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
+		OBJ_346 /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
+		OBJ_347 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_348 /* JSONConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
+		OBJ_349 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		OBJ_35 /* HTTPServerExConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerExConfig.swift; sourceTree = "<group>"; };
+		OBJ_350 /* PerfectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectError.swift; sourceTree = "<group>"; };
+		OBJ_351 /* PerfectServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectServer.swift; sourceTree = "<group>"; };
+		OBJ_352 /* SysProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysProcess.swift; sourceTree = "<group>"; };
+		OBJ_353 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		OBJ_354 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/PerfectLib.git-3712999737848873669/Package.swift"; sourceTree = "<group>"; };
+		OBJ_37 /* http_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
+		OBJ_39 /* http_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http_parser.h; sourceTree = "<group>"; };
+		OBJ_40 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_41 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Package.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		OBJ_45 /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		OBJ_46 /* crc32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		OBJ_47 /* deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		OBJ_48 /* gzclose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		OBJ_49 /* gzlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		OBJ_50 /* gzread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+		OBJ_51 /* gzwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		OBJ_52 /* infback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		OBJ_53 /* inffast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		OBJ_54 /* inflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		OBJ_55 /* inftrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		OBJ_56 /* trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		OBJ_57 /* uncompr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		OBJ_58 /* zutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* czlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = czlib.h; sourceTree = "<group>"; };
+		OBJ_61 /* inftrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		OBJ_62 /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		OBJ_63 /* inflate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		OBJ_64 /* zconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		OBJ_65 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_66 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/Package.swift"; sourceTree = "<group>"; };
+		OBJ_69 /* HTTPFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFilter.swift; sourceTree = "<group>"; };
+		OBJ_70 /* HTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		OBJ_71 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		OBJ_72 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		OBJ_73 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		OBJ_74 /* MimeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeReader.swift; sourceTree = "<group>"; };
+		OBJ_75 /* MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		OBJ_76 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		OBJ_77 /* StaticFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticFileHandler.swift; sourceTree = "<group>"; };
+		OBJ_78 /* TypedRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypedRoutes.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Package.swift"; sourceTree = "<group>"; };
+		OBJ_8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_82 /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		OBJ_83 /* NetAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetAddress.swift; sourceTree = "<group>"; };
+		OBJ_84 /* NetEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetEvent.swift; sourceTree = "<group>"; };
+		OBJ_85 /* NetNamedPipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetNamedPipe.swift; sourceTree = "<group>"; };
+		OBJ_86 /* NetTCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTCP.swift; sourceTree = "<group>"; };
+		OBJ_87 /* NetTCPSSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTCPSSL.swift; sourceTree = "<group>"; };
+		OBJ_88 /* NetUDP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetUDP.swift; sourceTree = "<group>"; };
+		OBJ_89 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Package.swift"; sourceTree = "<group>"; };
+		OBJ_92 /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
+		OBJ_93 /* ByteIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteIO.swift; sourceTree = "<group>"; };
+		OBJ_94 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		OBJ_95 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		OBJ_96 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		OBJ_97 /* OpenSSLInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSSLInternal.swift; sourceTree = "<group>"; };
+		OBJ_98 /* PerfectCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectCrypto.swift; sourceTree = "<group>"; };
+		OBJ_99 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/wolf/Development/TicTacToe/TicTacToeServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Package.swift"; sourceTree = "<group>"; };
+		"PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectCZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectHTTP::PerfectHTTP::Product" /* PerfectHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectHTTPServer::PerfectCHTTPParser::Product" /* PerfectCHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectCHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectHTTPServer::PerfectHTTPServer::Product" /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectLib::PerfectLib::Product" /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectNet::PerfectNet::Product" /* PerfectNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectThread::PerfectThread::Product" /* PerfectThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectWebSockets::PerfectWebSockets::Product" /* PerfectWebSockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectWebSockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TicTacToeServer::TicTacToeServer::Product" /* TicTacToeServer */ = {isa = PBXFileReference; lastKnownFileType = text; path = TicTacToeServer; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_658 /* COpenSSL.framework in Frameworks */,
+				OBJ_659 /* PerfectThread.framework in Frameworks */,
+				OBJ_660 /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_688 /* PerfectNet.framework in Frameworks */,
+				OBJ_689 /* PerfectCrypto.framework in Frameworks */,
+				OBJ_690 /* COpenSSL.framework in Frameworks */,
+				OBJ_691 /* PerfectThread.framework in Frameworks */,
+				OBJ_692 /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_729 /* PerfectCZlib.framework in Frameworks */,
+				OBJ_730 /* PerfectHTTP.framework in Frameworks */,
+				OBJ_731 /* PerfectNet.framework in Frameworks */,
+				OBJ_732 /* PerfectCrypto.framework in Frameworks */,
+				OBJ_733 /* COpenSSL.framework in Frameworks */,
+				OBJ_734 /* PerfectThread.framework in Frameworks */,
+				OBJ_735 /* PerfectLib.framework in Frameworks */,
+				OBJ_736 /* PerfectCHTTPParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_783 /* PerfectCrypto.framework in Frameworks */,
+				OBJ_784 /* COpenSSL.framework in Frameworks */,
+				OBJ_785 /* PerfectThread.framework in Frameworks */,
+				OBJ_786 /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_818 /* PerfectHTTP.framework in Frameworks */,
+				OBJ_819 /* PerfectNet.framework in Frameworks */,
+				OBJ_820 /* PerfectCrypto.framework in Frameworks */,
+				OBJ_821 /* COpenSSL.framework in Frameworks */,
+				OBJ_822 /* PerfectThread.framework in Frameworks */,
+				OBJ_823 /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				7906E73420EB68E600A52E12 /* TicTacToeShared.framework in Frameworks */,
+				OBJ_843 /* PerfectWebSockets.framework in Frameworks */,
+				OBJ_844 /* PerfectHTTPServer.framework in Frameworks */,
+				OBJ_845 /* PerfectCZlib.framework in Frameworks */,
+				OBJ_846 /* PerfectHTTP.framework in Frameworks */,
+				OBJ_847 /* PerfectNet.framework in Frameworks */,
+				OBJ_848 /* PerfectCrypto.framework in Frameworks */,
+				OBJ_849 /* COpenSSL.framework in Frameworks */,
+				OBJ_850 /* PerfectThread.framework in Frameworks */,
+				OBJ_851 /* PerfectLib.framework in Frameworks */,
+				OBJ_852 /* PerfectCHTTPParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7906E73220EB68E600A52E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7906E73320EB68E600A52E12 /* TicTacToeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* PerfectWebSockets 3.0.2 */,
+				OBJ_14 /* PerfectHTTPServer 3.0.17 */,
+				OBJ_42 /* PerfectCZlib 0.0.4 */,
+				OBJ_67 /* PerfectHTTP 3.0.12 */,
+				OBJ_80 /* PerfectNet 3.2.0 */,
+				OBJ_90 /* PerfectCrypto 3.1.2 */,
+				OBJ_100 /* COpenSSL 3.1.4 */,
+				OBJ_338 /* PerfectThread 3.0.4 */,
+				OBJ_343 /* PerfectLib 3.1.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_100 /* COpenSSL 3.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_101 /* COpenSSL */,
+				OBJ_337 /* Package.swift */,
+			);
+			name = "COpenSSL 3.1.4";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_101 /* COpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_102 /* a_.c */,
+				OBJ_103 /* aes_.c */,
+				OBJ_104 /* ameth_lib.c */,
+				OBJ_105 /* asn1_.c */,
+				OBJ_106 /* asn_.c */,
+				OBJ_107 /* b_dump.c */,
+				OBJ_108 /* b_print.c */,
+				OBJ_109 /* b_sock.c */,
+				OBJ_110 /* bf_.c */,
+				OBJ_111 /* bio_.c */,
+				OBJ_112 /* bn_.c */,
+				OBJ_113 /* bss_.c */,
+				OBJ_114 /* buf_.c */,
+				OBJ_115 /* buffer.c */,
+				OBJ_116 /* by_.c */,
+				OBJ_117 /* c_.c */,
+				OBJ_118 /* camellia.c */,
+				OBJ_119 /* cbc128.c */,
+				OBJ_120 /* cbc3_enc.c */,
+				OBJ_121 /* cbc_.c */,
+				OBJ_122 /* ccm128.c */,
+				OBJ_123 /* cfb128.c */,
+				OBJ_124 /* cfb64ede.c */,
+				OBJ_125 /* cfb64enc.c */,
+				OBJ_126 /* cfb_enc.c */,
+				OBJ_127 /* cm_.c */,
+				OBJ_128 /* cmac.c */,
+				OBJ_129 /* cmll_.c */,
+				OBJ_130 /* cms_.c */,
+				OBJ_131 /* comp_.c */,
+				OBJ_132 /* conf_.c */,
+				OBJ_133 /* cpt_err.c */,
+				OBJ_134 /* cryptlib.c */,
+				OBJ_135 /* ctr128.c */,
+				OBJ_136 /* cversion.c */,
+				OBJ_137 /* d1_.c */,
+				OBJ_138 /* d1_lib.c */,
+				OBJ_139 /* d2i_.c */,
+				OBJ_140 /* des_enc.c */,
+				OBJ_141 /* des_old.c */,
+				OBJ_142 /* des_old2.c */,
+				OBJ_143 /* dh_.c */,
+				OBJ_144 /* digest.c */,
+				OBJ_145 /* dsa_.c */,
+				OBJ_146 /* dso_.c */,
+				OBJ_147 /* e_4758cca.c */,
+				OBJ_148 /* e_4758cca_err.c */,
+				OBJ_149 /* e_aep.c */,
+				OBJ_150 /* e_aep_err.c */,
+				OBJ_151 /* e_aes.c */,
+				OBJ_152 /* e_aes_cbc_hmac_sha1.c */,
+				OBJ_153 /* e_aes_cbc_hmac_sha256.c */,
+				OBJ_154 /* e_atalla.c */,
+				OBJ_155 /* e_atalla_err.c */,
+				OBJ_156 /* e_bf.c */,
+				OBJ_157 /* e_camellia.c */,
+				OBJ_158 /* e_capi.c */,
+				OBJ_159 /* e_capi_err.c */,
+				OBJ_160 /* e_cast.c */,
+				OBJ_161 /* e_chil.c */,
+				OBJ_162 /* e_chil_err.c */,
+				OBJ_163 /* e_cswift.c */,
+				OBJ_164 /* e_cswift_err.c */,
+				OBJ_165 /* e_des.c */,
+				OBJ_166 /* e_des3.c */,
+				OBJ_167 /* e_gmp.c */,
+				OBJ_168 /* e_gmp_err.c */,
+				OBJ_169 /* e_gost_err.c */,
+				OBJ_170 /* e_idea.c */,
+				OBJ_171 /* e_null.c */,
+				OBJ_172 /* e_nuron.c */,
+				OBJ_173 /* e_nuron_err.c */,
+				OBJ_174 /* e_old.c */,
+				OBJ_175 /* e_padlock.c */,
+				OBJ_176 /* e_rc2.c */,
+				OBJ_177 /* e_rc4.c */,
+				OBJ_178 /* e_rc4_hmac_md5.c */,
+				OBJ_179 /* e_rc5.c */,
+				OBJ_180 /* e_seed.c */,
+				OBJ_181 /* e_sureware.c */,
+				OBJ_182 /* e_sureware_err.c */,
+				OBJ_183 /* e_ubsec.c */,
+				OBJ_184 /* e_ubsec_err.c */,
+				OBJ_185 /* e_xcbc_d.c */,
+				OBJ_186 /* ebcdic.c */,
+				OBJ_187 /* ec2_.c */,
+				OBJ_188 /* ec_.c */,
+				OBJ_189 /* ecb3_enc.c */,
+				OBJ_190 /* ecb_enc.c */,
+				OBJ_191 /* ech_.c */,
+				OBJ_192 /* eck_prn.c */,
+				OBJ_193 /* ecp_mont.c */,
+				OBJ_194 /* ecp_nist.c */,
+				OBJ_195 /* ecp_nistp224.c */,
+				OBJ_196 /* ecp_nistp256.c */,
+				OBJ_197 /* ecp_nistp521.c */,
+				OBJ_198 /* ecp_nistputil.c */,
+				OBJ_199 /* ecp_oct.c */,
+				OBJ_200 /* ecp_smpl.c */,
+				OBJ_201 /* ecs_.c */,
+				OBJ_202 /* ede_cbcm_enc.c */,
+				OBJ_203 /* enc_.c */,
+				OBJ_204 /* encode.c */,
+				OBJ_205 /* eng_.c */,
+				OBJ_206 /* err.c */,
+				OBJ_207 /* err_.c */,
+				OBJ_208 /* evp_.c */,
+				OBJ_209 /* ex_data.c */,
+				OBJ_210 /* f_.c */,
+				OBJ_211 /* fcrypt.c */,
+				OBJ_212 /* fcrypt_b.c */,
+				OBJ_213 /* fips_ers.c */,
+				OBJ_214 /* gcm128.c */,
+				OBJ_215 /* gost2001.c */,
+				OBJ_216 /* gost2001_keyx.c */,
+				OBJ_217 /* gost89.c */,
+				OBJ_218 /* gost94_keyx.c */,
+				OBJ_219 /* gost_.c */,
+				OBJ_220 /* gosthash.c */,
+				OBJ_221 /* hm_.c */,
+				OBJ_222 /* hmac.c */,
+				OBJ_223 /* i2d_.c */,
+				OBJ_224 /* i_.c */,
+				OBJ_225 /* krb5_asn.c */,
+				OBJ_226 /* kssl.c */,
+				OBJ_227 /* lh_stats.c */,
+				OBJ_228 /* lhash.c */,
+				OBJ_229 /* m_dss.c */,
+				OBJ_230 /* m_dss1.c */,
+				OBJ_231 /* m_ecdsa.c */,
+				OBJ_232 /* m_md2.c */,
+				OBJ_233 /* m_md4.c */,
+				OBJ_234 /* m_md5.c */,
+				OBJ_235 /* m_mdc2.c */,
+				OBJ_236 /* m_null.c */,
+				OBJ_237 /* m_ripemd.c */,
+				OBJ_238 /* m_sha.c */,
+				OBJ_239 /* m_sha1.c */,
+				OBJ_240 /* m_sigver.c */,
+				OBJ_241 /* m_wp.c */,
+				OBJ_242 /* md4_.c */,
+				OBJ_243 /* md5_.c */,
+				OBJ_244 /* md_rand.c */,
+				OBJ_245 /* mdc2_one.c */,
+				OBJ_246 /* mdc2dgst.c */,
+				OBJ_247 /* mem.c */,
+				OBJ_248 /* mem_.c */,
+				OBJ_249 /* n_pkey.c */,
+				OBJ_250 /* names.c */,
+				OBJ_251 /* nsseq.c */,
+				OBJ_252 /* o_.c */,
+				OBJ_253 /* obj_.c */,
+				OBJ_254 /* ocsp_.c */,
+				OBJ_255 /* ofb128.c */,
+				OBJ_256 /* ofb64ede.c */,
+				OBJ_257 /* ofb64enc.c */,
+				OBJ_258 /* ofb_enc.c */,
+				OBJ_259 /* openbsd_hw.c */,
+				OBJ_260 /* p12_.c */,
+				OBJ_261 /* p5_.c */,
+				OBJ_262 /* p8_pkey.c */,
+				OBJ_263 /* p_.c */,
+				OBJ_264 /* pcbc_enc.c */,
+				OBJ_265 /* pcy_.c */,
+				OBJ_266 /* pem_.c */,
+				OBJ_267 /* pk12err.c */,
+				OBJ_268 /* pk7_.c */,
+				OBJ_269 /* pkcs7err.c */,
+				OBJ_270 /* pmeth_.c */,
+				OBJ_271 /* pqueue.c */,
+				OBJ_272 /* pvkfmt.c */,
+				OBJ_273 /* qud_cksm.c */,
+				OBJ_274 /* rand_.c */,
+				OBJ_275 /* randfile.c */,
+				OBJ_276 /* rc2_.c */,
+				OBJ_277 /* rc2cfb64.c */,
+				OBJ_278 /* rc2ofb64.c */,
+				OBJ_279 /* rc4_.c */,
+				OBJ_280 /* read2pwd.c */,
+				OBJ_281 /* rmd_.c */,
+				OBJ_282 /* rpc_enc.c */,
+				OBJ_283 /* rsa_.c */,
+				OBJ_284 /* rsaz_exp.c */,
+				OBJ_285 /* s23_.c */,
+				OBJ_286 /* s2_.c */,
+				OBJ_287 /* s3_.c */,
+				OBJ_288 /* seed.c */,
+				OBJ_289 /* seed_.c */,
+				OBJ_290 /* set_key.c */,
+				OBJ_291 /* sha1_one.c */,
+				OBJ_292 /* sha1dgst.c */,
+				OBJ_293 /* sha256.c */,
+				OBJ_294 /* sha512.c */,
+				OBJ_295 /* sha_.c */,
+				OBJ_296 /* srp_.c */,
+				OBJ_297 /* ssl_.c */,
+				OBJ_298 /* stack.c */,
+				OBJ_299 /* str2key.c */,
+				OBJ_300 /* t1_.c */,
+				OBJ_301 /* t_.c */,
+				OBJ_302 /* tasn_.c */,
+				OBJ_303 /* tb_asnmth.c */,
+				OBJ_304 /* tb_cipher.c */,
+				OBJ_305 /* tb_dh.c */,
+				OBJ_306 /* tb_digest.c */,
+				OBJ_307 /* tb_dsa.c */,
+				OBJ_308 /* tb_ecdh.c */,
+				OBJ_309 /* tb_ecdsa.c */,
+				OBJ_310 /* tb_pkmeth.c */,
+				OBJ_311 /* tb_rand.c */,
+				OBJ_312 /* tb_rsa.c */,
+				OBJ_313 /* tb_store.c */,
+				OBJ_314 /* th-lock.c */,
+				OBJ_315 /* tls_srp.c */,
+				OBJ_316 /* ts_.c */,
+				OBJ_317 /* txt_db.c */,
+				OBJ_318 /* ui_.c */,
+				OBJ_319 /* uid.c */,
+				OBJ_320 /* v3_.c */,
+				OBJ_321 /* v3_lib.c */,
+				OBJ_322 /* v3err.c */,
+				OBJ_323 /* wp_.c */,
+				OBJ_324 /* wrap128.c */,
+				OBJ_325 /* x509_.c */,
+				OBJ_326 /* x509cset.c */,
+				OBJ_327 /* x509name.c */,
+				OBJ_328 /* x509rset.c */,
+				OBJ_329 /* x509spki.c */,
+				OBJ_330 /* x509type.c */,
+				OBJ_331 /* x_.c */,
+				OBJ_332 /* xcbc_enc.c */,
+				OBJ_333 /* xts128.c */,
+				OBJ_334 /* include */,
+			);
+			name = COpenSSL;
+			path = ".build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* PerfectWebSockets 3.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* Package.swift */,
+				OBJ_13 /* WebSocketHandler.swift */,
+			);
+			name = "PerfectWebSockets 3.0.2";
+			path = ".build/checkouts/Perfect-WebSockets.git--5144200636556942371/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* PerfectHTTPServer 3.0.17 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* PerfectHTTPServer */,
+				OBJ_36 /* PerfectCHTTPParser */,
+				OBJ_41 /* Package.swift */,
+			);
+			name = "PerfectHTTPServer 3.0.17";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_15 /* PerfectHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* HTTP11 */,
+				OBJ_19 /* HTTP2 */,
+				OBJ_31 /* HTTPContentCompression.swift */,
+				OBJ_32 /* HTTPMultiplexer.swift */,
+				OBJ_33 /* HTTPServer.swift */,
+				OBJ_34 /* HTTPServerEx.swift */,
+				OBJ_35 /* HTTPServerExConfig.swift */,
+			);
+			name = PerfectHTTPServer;
+			path = ".build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* HTTP11 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* HTTP11Request.swift */,
+				OBJ_18 /* HTTP11Response.swift */,
+			);
+			path = HTTP11;
+			sourceTree = "<group>";
+		};
+		OBJ_19 /* HTTP2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* HPACK.swift */,
+				OBJ_21 /* HTTP2.swift */,
+				OBJ_22 /* HTTP2Client.swift */,
+				OBJ_23 /* HTTP2Frame.swift */,
+				OBJ_24 /* HTTP2FrameReader.swift */,
+				OBJ_25 /* HTTP2FrameWriter.swift */,
+				OBJ_26 /* HTTP2PrefaceValidator.swift */,
+				OBJ_27 /* HTTP2Request.swift */,
+				OBJ_28 /* HTTP2Response.swift */,
+				OBJ_29 /* HTTP2Session.swift */,
+				OBJ_30 /* HTTP2SessionSettings.swift */,
+			);
+			path = HTTP2;
+			sourceTree = "<group>";
+		};
+		OBJ_334 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_335 /* openssl.h */,
+				OBJ_336 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_338 /* PerfectThread 3.0.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_339 /* Package.swift */,
+				OBJ_340 /* Promise.swift */,
+				OBJ_341 /* ThreadQueue.swift */,
+				OBJ_342 /* Threading.swift */,
+			);
+			name = "PerfectThread 3.0.4";
+			path = ".build/checkouts/Perfect-Thread.git-6541237758607105655/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_343 /* PerfectLib 3.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_344 /* PerfectLib */,
+				OBJ_354 /* Package.swift */,
+			);
+			name = "PerfectLib 3.1.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_344 /* PerfectLib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_345 /* Bytes.swift */,
+				OBJ_346 /* Dir.swift */,
+				OBJ_347 /* File.swift */,
+				OBJ_348 /* JSONConvertible.swift */,
+				OBJ_349 /* Log.swift */,
+				OBJ_350 /* PerfectError.swift */,
+				OBJ_351 /* PerfectServer.swift */,
+				OBJ_352 /* SysProcess.swift */,
+				OBJ_353 /* Utilities.swift */,
+			);
+			name = PerfectLib;
+			path = ".build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"PerfectLib::PerfectLib::Product" /* PerfectLib.framework */,
+				"PerfectWebSockets::PerfectWebSockets::Product" /* PerfectWebSockets.framework */,
+				"PerfectHTTP::PerfectHTTP::Product" /* PerfectHTTP.framework */,
+				"PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */,
+				"PerfectHTTPServer::PerfectCHTTPParser::Product" /* PerfectCHTTPParser.framework */,
+				"PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */,
+				"PerfectNet::PerfectNet::Product" /* PerfectNet.framework */,
+				"TicTacToeServer::TicTacToeServer::Product" /* TicTacToeServer */,
+				"COpenSSL::COpenSSL::Product" /* COpenSSL.framework */,
+				"PerfectThread::PerfectThread::Product" /* PerfectThread.framework */,
+				"PerfectHTTPServer::PerfectHTTPServer::Product" /* PerfectHTTPServer.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_36 /* PerfectCHTTPParser */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* http_parser.c */,
+				OBJ_38 /* include */,
+			);
+			name = PerfectCHTTPParser;
+			path = ".build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_38 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* http_parser.h */,
+				OBJ_40 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_42 /* PerfectCZlib 0.0.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_43 /* PerfectCZlib */,
+				OBJ_66 /* Package.swift */,
+			);
+			name = "PerfectCZlib 0.0.4";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_43 /* PerfectCZlib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_44 /* adler32.c */,
+				OBJ_45 /* compress.c */,
+				OBJ_46 /* crc32.c */,
+				OBJ_47 /* deflate.c */,
+				OBJ_48 /* gzclose.c */,
+				OBJ_49 /* gzlib.c */,
+				OBJ_50 /* gzread.c */,
+				OBJ_51 /* gzwrite.c */,
+				OBJ_52 /* infback.c */,
+				OBJ_53 /* inffast.c */,
+				OBJ_54 /* inflate.c */,
+				OBJ_55 /* inftrees.c */,
+				OBJ_56 /* trees.c */,
+				OBJ_57 /* uncompr.c */,
+				OBJ_58 /* zutil.c */,
+				OBJ_59 /* include */,
+			);
+			name = PerfectCZlib;
+			path = ".build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_10 /* Dependencies */,
+				OBJ_355 /* Products */,
+				7906E73220EB68E600A52E12 /* Frameworks */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_59 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_60 /* czlib.h */,
+				OBJ_61 /* inftrees.h */,
+				OBJ_62 /* zlib.h */,
+				OBJ_63 /* inflate.h */,
+				OBJ_64 /* zconf.h */,
+				OBJ_65 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_67 /* PerfectHTTP 3.0.12 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_68 /* PerfectHTTP */,
+				OBJ_79 /* Package.swift */,
+			);
+			name = "PerfectHTTP 3.0.12";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_68 /* PerfectHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_69 /* HTTPFilter.swift */,
+				OBJ_70 /* HTTPHeaders.swift */,
+				OBJ_71 /* HTTPMethod.swift */,
+				OBJ_72 /* HTTPRequest.swift */,
+				OBJ_73 /* HTTPResponse.swift */,
+				OBJ_74 /* MimeReader.swift */,
+				OBJ_75 /* MimeType.swift */,
+				OBJ_76 /* Routing.swift */,
+				OBJ_77 /* StaticFileHandler.swift */,
+				OBJ_78 /* TypedRoutes.swift */,
+			);
+			name = PerfectHTTP;
+			path = ".build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* main.swift */,
+				7906E73F20EB6DD500A52E12 /* Game.swift */,
+				7906E74120EB6E6A00A52E12 /* GameHandler.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_80 /* PerfectNet 3.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_81 /* PerfectNet */,
+				OBJ_89 /* Package.swift */,
+			);
+			name = "PerfectNet 3.2.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_81 /* PerfectNet */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_82 /* Net.swift */,
+				OBJ_83 /* NetAddress.swift */,
+				OBJ_84 /* NetEvent.swift */,
+				OBJ_85 /* NetNamedPipe.swift */,
+				OBJ_86 /* NetTCP.swift */,
+				OBJ_87 /* NetTCPSSL.swift */,
+				OBJ_88 /* NetUDP.swift */,
+			);
+			name = PerfectNet;
+			path = ".build/checkouts/Perfect-Net.git-3268755499654502659/Sources/PerfectNet";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_90 /* PerfectCrypto 3.1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_91 /* PerfectCrypto */,
+				OBJ_99 /* Package.swift */,
+			);
+			name = "PerfectCrypto 3.1.2";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_91 /* PerfectCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_92 /* Algorithms.swift */,
+				OBJ_93 /* ByteIO.swift */,
+				OBJ_94 /* Extensions.swift */,
+				OBJ_95 /* JWT.swift */,
+				OBJ_96 /* Keys.swift */,
+				OBJ_97 /* OpenSSLInternal.swift */,
+				OBJ_98 /* PerfectCrypto.swift */,
+			);
+			name = PerfectCrypto;
+			path = ".build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"COpenSSL::COpenSSL" /* COpenSSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_368 /* Build configuration list for PBXNativeTarget "COpenSSL" */;
+			buildPhases = (
+				OBJ_371 /* Sources */,
+				OBJ_604 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COpenSSL;
+			productName = COpenSSL;
+			productReference = "COpenSSL::COpenSSL::Product" /* COpenSSL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"COpenSSL::SwiftPMPackageDescription" /* COpenSSLPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_606 /* Build configuration list for PBXNativeTarget "COpenSSLPackageDescription" */;
+			buildPhases = (
+				OBJ_609 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COpenSSLPackageDescription;
+			productName = COpenSSLPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectCZlib::PerfectCZlib" /* PerfectCZlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_619 /* Build configuration list for PBXNativeTarget "PerfectCZlib" */;
+			buildPhases = (
+				OBJ_622 /* Sources */,
+				OBJ_638 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectCZlib;
+			productName = PerfectCZlib;
+			productReference = "PerfectCZlib::PerfectCZlib::Product" /* PerfectCZlib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectCZlib::SwiftPMPackageDescription" /* PerfectCZlibPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_640 /* Build configuration list for PBXNativeTarget "PerfectCZlibPackageDescription" */;
+			buildPhases = (
+				OBJ_643 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectCZlibPackageDescription;
+			productName = PerfectCZlibPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectCrypto::PerfectCrypto" /* PerfectCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_646 /* Build configuration list for PBXNativeTarget "PerfectCrypto" */;
+			buildPhases = (
+				OBJ_649 /* Sources */,
+				OBJ_657 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_661 /* PBXTargetDependency */,
+				OBJ_662 /* PBXTargetDependency */,
+				OBJ_664 /* PBXTargetDependency */,
+			);
+			name = PerfectCrypto;
+			productName = PerfectCrypto;
+			productReference = "PerfectCrypto::PerfectCrypto::Product" /* PerfectCrypto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectCrypto::SwiftPMPackageDescription" /* PerfectCryptoPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_667 /* Build configuration list for PBXNativeTarget "PerfectCryptoPackageDescription" */;
+			buildPhases = (
+				OBJ_670 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectCryptoPackageDescription;
+			productName = PerfectCryptoPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectHTTP::PerfectHTTP" /* PerfectHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_673 /* Build configuration list for PBXNativeTarget "PerfectHTTP" */;
+			buildPhases = (
+				OBJ_676 /* Sources */,
+				OBJ_687 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_693 /* PBXTargetDependency */,
+				OBJ_695 /* PBXTargetDependency */,
+				OBJ_696 /* PBXTargetDependency */,
+				OBJ_697 /* PBXTargetDependency */,
+				OBJ_698 /* PBXTargetDependency */,
+			);
+			name = PerfectHTTP;
+			productName = PerfectHTTP;
+			productReference = "PerfectHTTP::PerfectHTTP::Product" /* PerfectHTTP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectHTTP::SwiftPMPackageDescription" /* PerfectHTTPPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_700 /* Build configuration list for PBXNativeTarget "PerfectHTTPPackageDescription" */;
+			buildPhases = (
+				OBJ_703 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectHTTPPackageDescription;
+			productName = PerfectHTTPPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectHTTPServer::PerfectCHTTPParser" /* PerfectCHTTPParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_612 /* Build configuration list for PBXNativeTarget "PerfectCHTTPParser" */;
+			buildPhases = (
+				OBJ_615 /* Sources */,
+				OBJ_617 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectCHTTPParser;
+			productName = PerfectCHTTPParser;
+			productReference = "PerfectHTTPServer::PerfectCHTTPParser::Product" /* PerfectCHTTPParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectHTTPServer::PerfectHTTPServer" /* PerfectHTTPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_706 /* Build configuration list for PBXNativeTarget "PerfectHTTPServer" */;
+			buildPhases = (
+				OBJ_709 /* Sources */,
+				OBJ_728 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_737 /* PBXTargetDependency */,
+				OBJ_738 /* PBXTargetDependency */,
+				OBJ_739 /* PBXTargetDependency */,
+				OBJ_740 /* PBXTargetDependency */,
+				OBJ_741 /* PBXTargetDependency */,
+				OBJ_742 /* PBXTargetDependency */,
+				OBJ_743 /* PBXTargetDependency */,
+				OBJ_744 /* PBXTargetDependency */,
+			);
+			name = PerfectHTTPServer;
+			productName = PerfectHTTPServer;
+			productReference = "PerfectHTTPServer::PerfectHTTPServer::Product" /* PerfectHTTPServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectHTTPServer::SwiftPMPackageDescription" /* PerfectHTTPServerPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_746 /* Build configuration list for PBXNativeTarget "PerfectHTTPServerPackageDescription" */;
+			buildPhases = (
+				OBJ_749 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectHTTPServerPackageDescription;
+			productName = PerfectHTTPServerPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectLib::PerfectLib" /* PerfectLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_751 /* Build configuration list for PBXNativeTarget "PerfectLib" */;
+			buildPhases = (
+				OBJ_754 /* Sources */,
+				OBJ_764 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectLib;
+			productName = PerfectLib;
+			productReference = "PerfectLib::PerfectLib::Product" /* PerfectLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectLib::SwiftPMPackageDescription" /* PerfectLibPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_766 /* Build configuration list for PBXNativeTarget "PerfectLibPackageDescription" */;
+			buildPhases = (
+				OBJ_769 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectLibPackageDescription;
+			productName = PerfectLibPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectNet::PerfectNet" /* PerfectNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_771 /* Build configuration list for PBXNativeTarget "PerfectNet" */;
+			buildPhases = (
+				OBJ_774 /* Sources */,
+				OBJ_782 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_787 /* PBXTargetDependency */,
+				OBJ_788 /* PBXTargetDependency */,
+				OBJ_789 /* PBXTargetDependency */,
+				OBJ_790 /* PBXTargetDependency */,
+			);
+			name = PerfectNet;
+			productName = PerfectNet;
+			productReference = "PerfectNet::PerfectNet::Product" /* PerfectNet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectNet::SwiftPMPackageDescription" /* PerfectNetPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_792 /* Build configuration list for PBXNativeTarget "PerfectNetPackageDescription" */;
+			buildPhases = (
+				OBJ_795 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectNetPackageDescription;
+			productName = PerfectNetPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectThread::PerfectThread" /* PerfectThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_797 /* Build configuration list for PBXNativeTarget "PerfectThread" */;
+			buildPhases = (
+				OBJ_800 /* Sources */,
+				OBJ_804 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectThread;
+			productName = PerfectThread;
+			productReference = "PerfectThread::PerfectThread::Product" /* PerfectThread.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectThread::SwiftPMPackageDescription" /* PerfectThreadPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_806 /* Build configuration list for PBXNativeTarget "PerfectThreadPackageDescription" */;
+			buildPhases = (
+				OBJ_809 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectThreadPackageDescription;
+			productName = PerfectThreadPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectWebSockets::PerfectWebSockets" /* PerfectWebSockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_812 /* Build configuration list for PBXNativeTarget "PerfectWebSockets" */;
+			buildPhases = (
+				OBJ_815 /* Sources */,
+				OBJ_817 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_824 /* PBXTargetDependency */,
+				OBJ_825 /* PBXTargetDependency */,
+				OBJ_826 /* PBXTargetDependency */,
+				OBJ_827 /* PBXTargetDependency */,
+				OBJ_828 /* PBXTargetDependency */,
+				OBJ_829 /* PBXTargetDependency */,
+			);
+			name = PerfectWebSockets;
+			productName = PerfectWebSockets;
+			productReference = "PerfectWebSockets::PerfectWebSockets::Product" /* PerfectWebSockets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectWebSockets::SwiftPMPackageDescription" /* PerfectWebSocketsPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_831 /* Build configuration list for PBXNativeTarget "PerfectWebSocketsPackageDescription" */;
+			buildPhases = (
+				OBJ_834 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectWebSocketsPackageDescription;
+			productName = PerfectWebSocketsPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"TicTacToeServer::SwiftPMPackageDescription" /* TicTacToeServerPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_864 /* Build configuration list for PBXNativeTarget "TicTacToeServerPackageDescription" */;
+			buildPhases = (
+				OBJ_867 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToeServerPackageDescription;
+			productName = TicTacToeServerPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"TicTacToeServer::TicTacToeServer" /* TicTacToeServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_837 /* Build configuration list for PBXNativeTarget "TicTacToeServer" */;
+			buildPhases = (
+				OBJ_840 /* Sources */,
+				OBJ_842 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_853 /* PBXTargetDependency */,
+				OBJ_854 /* PBXTargetDependency */,
+				OBJ_855 /* PBXTargetDependency */,
+				OBJ_856 /* PBXTargetDependency */,
+				OBJ_857 /* PBXTargetDependency */,
+				OBJ_858 /* PBXTargetDependency */,
+				OBJ_859 /* PBXTargetDependency */,
+				OBJ_860 /* PBXTargetDependency */,
+				OBJ_861 /* PBXTargetDependency */,
+				OBJ_862 /* PBXTargetDependency */,
+			);
+			name = TicTacToeServer;
+			productName = TicTacToeServer;
+			productReference = "TicTacToeServer::TicTacToeServer::Product" /* TicTacToeServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "TicTacToeServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"COpenSSL::COpenSSL" /* COpenSSL */,
+				"COpenSSL::SwiftPMPackageDescription" /* COpenSSLPackageDescription */,
+				"PerfectHTTPServer::PerfectCHTTPParser" /* PerfectCHTTPParser */,
+				"PerfectCZlib::PerfectCZlib" /* PerfectCZlib */,
+				"PerfectCZlib::SwiftPMPackageDescription" /* PerfectCZlibPackageDescription */,
+				"PerfectCrypto::PerfectCrypto" /* PerfectCrypto */,
+				"PerfectCrypto::SwiftPMPackageDescription" /* PerfectCryptoPackageDescription */,
+				"PerfectHTTP::PerfectHTTP" /* PerfectHTTP */,
+				"PerfectHTTP::SwiftPMPackageDescription" /* PerfectHTTPPackageDescription */,
+				"PerfectHTTPServer::PerfectHTTPServer" /* PerfectHTTPServer */,
+				"PerfectHTTPServer::SwiftPMPackageDescription" /* PerfectHTTPServerPackageDescription */,
+				"PerfectLib::PerfectLib" /* PerfectLib */,
+				"PerfectLib::SwiftPMPackageDescription" /* PerfectLibPackageDescription */,
+				"PerfectNet::PerfectNet" /* PerfectNet */,
+				"PerfectNet::SwiftPMPackageDescription" /* PerfectNetPackageDescription */,
+				"PerfectThread::PerfectThread" /* PerfectThread */,
+				"PerfectThread::SwiftPMPackageDescription" /* PerfectThreadPackageDescription */,
+				"PerfectWebSockets::PerfectWebSockets" /* PerfectWebSockets */,
+				"PerfectWebSockets::SwiftPMPackageDescription" /* PerfectWebSocketsPackageDescription */,
+				"TicTacToeServer::TicTacToeServer" /* TicTacToeServer */,
+				"TicTacToeServer::SwiftPMPackageDescription" /* TicTacToeServerPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_372 /* a_.c in Sources */,
+				OBJ_373 /* aes_.c in Sources */,
+				OBJ_374 /* ameth_lib.c in Sources */,
+				OBJ_375 /* asn1_.c in Sources */,
+				OBJ_376 /* asn_.c in Sources */,
+				OBJ_377 /* b_dump.c in Sources */,
+				OBJ_378 /* b_print.c in Sources */,
+				OBJ_379 /* b_sock.c in Sources */,
+				OBJ_380 /* bf_.c in Sources */,
+				OBJ_381 /* bio_.c in Sources */,
+				OBJ_382 /* bn_.c in Sources */,
+				OBJ_383 /* bss_.c in Sources */,
+				OBJ_384 /* buf_.c in Sources */,
+				OBJ_385 /* buffer.c in Sources */,
+				OBJ_386 /* by_.c in Sources */,
+				OBJ_387 /* c_.c in Sources */,
+				OBJ_388 /* camellia.c in Sources */,
+				OBJ_389 /* cbc128.c in Sources */,
+				OBJ_390 /* cbc3_enc.c in Sources */,
+				OBJ_391 /* cbc_.c in Sources */,
+				OBJ_392 /* ccm128.c in Sources */,
+				OBJ_393 /* cfb128.c in Sources */,
+				OBJ_394 /* cfb64ede.c in Sources */,
+				OBJ_395 /* cfb64enc.c in Sources */,
+				OBJ_396 /* cfb_enc.c in Sources */,
+				OBJ_397 /* cm_.c in Sources */,
+				OBJ_398 /* cmac.c in Sources */,
+				OBJ_399 /* cmll_.c in Sources */,
+				OBJ_400 /* cms_.c in Sources */,
+				OBJ_401 /* comp_.c in Sources */,
+				OBJ_402 /* conf_.c in Sources */,
+				OBJ_403 /* cpt_err.c in Sources */,
+				OBJ_404 /* cryptlib.c in Sources */,
+				OBJ_405 /* ctr128.c in Sources */,
+				OBJ_406 /* cversion.c in Sources */,
+				OBJ_407 /* d1_.c in Sources */,
+				OBJ_408 /* d1_lib.c in Sources */,
+				OBJ_409 /* d2i_.c in Sources */,
+				OBJ_410 /* des_enc.c in Sources */,
+				OBJ_411 /* des_old.c in Sources */,
+				OBJ_412 /* des_old2.c in Sources */,
+				OBJ_413 /* dh_.c in Sources */,
+				OBJ_414 /* digest.c in Sources */,
+				OBJ_415 /* dsa_.c in Sources */,
+				OBJ_416 /* dso_.c in Sources */,
+				OBJ_417 /* e_4758cca.c in Sources */,
+				OBJ_418 /* e_4758cca_err.c in Sources */,
+				OBJ_419 /* e_aep.c in Sources */,
+				OBJ_420 /* e_aep_err.c in Sources */,
+				OBJ_421 /* e_aes.c in Sources */,
+				OBJ_422 /* e_aes_cbc_hmac_sha1.c in Sources */,
+				OBJ_423 /* e_aes_cbc_hmac_sha256.c in Sources */,
+				OBJ_424 /* e_atalla.c in Sources */,
+				OBJ_425 /* e_atalla_err.c in Sources */,
+				OBJ_426 /* e_bf.c in Sources */,
+				OBJ_427 /* e_camellia.c in Sources */,
+				OBJ_428 /* e_capi.c in Sources */,
+				OBJ_429 /* e_capi_err.c in Sources */,
+				OBJ_430 /* e_cast.c in Sources */,
+				OBJ_431 /* e_chil.c in Sources */,
+				OBJ_432 /* e_chil_err.c in Sources */,
+				OBJ_433 /* e_cswift.c in Sources */,
+				OBJ_434 /* e_cswift_err.c in Sources */,
+				OBJ_435 /* e_des.c in Sources */,
+				OBJ_436 /* e_des3.c in Sources */,
+				OBJ_437 /* e_gmp.c in Sources */,
+				OBJ_438 /* e_gmp_err.c in Sources */,
+				OBJ_439 /* e_gost_err.c in Sources */,
+				OBJ_440 /* e_idea.c in Sources */,
+				OBJ_441 /* e_null.c in Sources */,
+				OBJ_442 /* e_nuron.c in Sources */,
+				OBJ_443 /* e_nuron_err.c in Sources */,
+				OBJ_444 /* e_old.c in Sources */,
+				OBJ_445 /* e_padlock.c in Sources */,
+				OBJ_446 /* e_rc2.c in Sources */,
+				OBJ_447 /* e_rc4.c in Sources */,
+				OBJ_448 /* e_rc4_hmac_md5.c in Sources */,
+				OBJ_449 /* e_rc5.c in Sources */,
+				OBJ_450 /* e_seed.c in Sources */,
+				OBJ_451 /* e_sureware.c in Sources */,
+				OBJ_452 /* e_sureware_err.c in Sources */,
+				OBJ_453 /* e_ubsec.c in Sources */,
+				OBJ_454 /* e_ubsec_err.c in Sources */,
+				OBJ_455 /* e_xcbc_d.c in Sources */,
+				OBJ_456 /* ebcdic.c in Sources */,
+				OBJ_457 /* ec2_.c in Sources */,
+				OBJ_458 /* ec_.c in Sources */,
+				OBJ_459 /* ecb3_enc.c in Sources */,
+				OBJ_460 /* ecb_enc.c in Sources */,
+				OBJ_461 /* ech_.c in Sources */,
+				OBJ_462 /* eck_prn.c in Sources */,
+				OBJ_463 /* ecp_mont.c in Sources */,
+				OBJ_464 /* ecp_nist.c in Sources */,
+				OBJ_465 /* ecp_nistp224.c in Sources */,
+				OBJ_466 /* ecp_nistp256.c in Sources */,
+				OBJ_467 /* ecp_nistp521.c in Sources */,
+				OBJ_468 /* ecp_nistputil.c in Sources */,
+				OBJ_469 /* ecp_oct.c in Sources */,
+				OBJ_470 /* ecp_smpl.c in Sources */,
+				OBJ_471 /* ecs_.c in Sources */,
+				OBJ_472 /* ede_cbcm_enc.c in Sources */,
+				OBJ_473 /* enc_.c in Sources */,
+				OBJ_474 /* encode.c in Sources */,
+				OBJ_475 /* eng_.c in Sources */,
+				OBJ_476 /* err.c in Sources */,
+				OBJ_477 /* err_.c in Sources */,
+				OBJ_478 /* evp_.c in Sources */,
+				OBJ_479 /* ex_data.c in Sources */,
+				OBJ_480 /* f_.c in Sources */,
+				OBJ_481 /* fcrypt.c in Sources */,
+				OBJ_482 /* fcrypt_b.c in Sources */,
+				OBJ_483 /* fips_ers.c in Sources */,
+				OBJ_484 /* gcm128.c in Sources */,
+				OBJ_485 /* gost2001.c in Sources */,
+				OBJ_486 /* gost2001_keyx.c in Sources */,
+				OBJ_487 /* gost89.c in Sources */,
+				OBJ_488 /* gost94_keyx.c in Sources */,
+				OBJ_489 /* gost_.c in Sources */,
+				OBJ_490 /* gosthash.c in Sources */,
+				OBJ_491 /* hm_.c in Sources */,
+				OBJ_492 /* hmac.c in Sources */,
+				OBJ_493 /* i2d_.c in Sources */,
+				OBJ_494 /* i_.c in Sources */,
+				OBJ_495 /* krb5_asn.c in Sources */,
+				OBJ_496 /* kssl.c in Sources */,
+				OBJ_497 /* lh_stats.c in Sources */,
+				OBJ_498 /* lhash.c in Sources */,
+				OBJ_499 /* m_dss.c in Sources */,
+				OBJ_500 /* m_dss1.c in Sources */,
+				OBJ_501 /* m_ecdsa.c in Sources */,
+				OBJ_502 /* m_md2.c in Sources */,
+				OBJ_503 /* m_md4.c in Sources */,
+				OBJ_504 /* m_md5.c in Sources */,
+				OBJ_505 /* m_mdc2.c in Sources */,
+				OBJ_506 /* m_null.c in Sources */,
+				OBJ_507 /* m_ripemd.c in Sources */,
+				OBJ_508 /* m_sha.c in Sources */,
+				OBJ_509 /* m_sha1.c in Sources */,
+				OBJ_510 /* m_sigver.c in Sources */,
+				OBJ_511 /* m_wp.c in Sources */,
+				OBJ_512 /* md4_.c in Sources */,
+				OBJ_513 /* md5_.c in Sources */,
+				OBJ_514 /* md_rand.c in Sources */,
+				OBJ_515 /* mdc2_one.c in Sources */,
+				OBJ_516 /* mdc2dgst.c in Sources */,
+				OBJ_517 /* mem.c in Sources */,
+				OBJ_518 /* mem_.c in Sources */,
+				OBJ_519 /* n_pkey.c in Sources */,
+				OBJ_520 /* names.c in Sources */,
+				OBJ_521 /* nsseq.c in Sources */,
+				OBJ_522 /* o_.c in Sources */,
+				OBJ_523 /* obj_.c in Sources */,
+				OBJ_524 /* ocsp_.c in Sources */,
+				OBJ_525 /* ofb128.c in Sources */,
+				OBJ_526 /* ofb64ede.c in Sources */,
+				OBJ_527 /* ofb64enc.c in Sources */,
+				OBJ_528 /* ofb_enc.c in Sources */,
+				OBJ_529 /* openbsd_hw.c in Sources */,
+				OBJ_530 /* p12_.c in Sources */,
+				OBJ_531 /* p5_.c in Sources */,
+				OBJ_532 /* p8_pkey.c in Sources */,
+				OBJ_533 /* p_.c in Sources */,
+				OBJ_534 /* pcbc_enc.c in Sources */,
+				OBJ_535 /* pcy_.c in Sources */,
+				OBJ_536 /* pem_.c in Sources */,
+				OBJ_537 /* pk12err.c in Sources */,
+				OBJ_538 /* pk7_.c in Sources */,
+				OBJ_539 /* pkcs7err.c in Sources */,
+				OBJ_540 /* pmeth_.c in Sources */,
+				OBJ_541 /* pqueue.c in Sources */,
+				OBJ_542 /* pvkfmt.c in Sources */,
+				OBJ_543 /* qud_cksm.c in Sources */,
+				OBJ_544 /* rand_.c in Sources */,
+				OBJ_545 /* randfile.c in Sources */,
+				OBJ_546 /* rc2_.c in Sources */,
+				OBJ_547 /* rc2cfb64.c in Sources */,
+				OBJ_548 /* rc2ofb64.c in Sources */,
+				OBJ_549 /* rc4_.c in Sources */,
+				OBJ_550 /* read2pwd.c in Sources */,
+				OBJ_551 /* rmd_.c in Sources */,
+				OBJ_552 /* rpc_enc.c in Sources */,
+				OBJ_553 /* rsa_.c in Sources */,
+				OBJ_554 /* rsaz_exp.c in Sources */,
+				OBJ_555 /* s23_.c in Sources */,
+				OBJ_556 /* s2_.c in Sources */,
+				OBJ_557 /* s3_.c in Sources */,
+				OBJ_558 /* seed.c in Sources */,
+				OBJ_559 /* seed_.c in Sources */,
+				OBJ_560 /* set_key.c in Sources */,
+				OBJ_561 /* sha1_one.c in Sources */,
+				OBJ_562 /* sha1dgst.c in Sources */,
+				OBJ_563 /* sha256.c in Sources */,
+				OBJ_564 /* sha512.c in Sources */,
+				OBJ_565 /* sha_.c in Sources */,
+				OBJ_566 /* srp_.c in Sources */,
+				OBJ_567 /* ssl_.c in Sources */,
+				OBJ_568 /* stack.c in Sources */,
+				OBJ_569 /* str2key.c in Sources */,
+				OBJ_570 /* t1_.c in Sources */,
+				OBJ_571 /* t_.c in Sources */,
+				OBJ_572 /* tasn_.c in Sources */,
+				OBJ_573 /* tb_asnmth.c in Sources */,
+				OBJ_574 /* tb_cipher.c in Sources */,
+				OBJ_575 /* tb_dh.c in Sources */,
+				OBJ_576 /* tb_digest.c in Sources */,
+				OBJ_577 /* tb_dsa.c in Sources */,
+				OBJ_578 /* tb_ecdh.c in Sources */,
+				OBJ_579 /* tb_ecdsa.c in Sources */,
+				OBJ_580 /* tb_pkmeth.c in Sources */,
+				OBJ_581 /* tb_rand.c in Sources */,
+				OBJ_582 /* tb_rsa.c in Sources */,
+				OBJ_583 /* tb_store.c in Sources */,
+				OBJ_584 /* th-lock.c in Sources */,
+				OBJ_585 /* tls_srp.c in Sources */,
+				OBJ_586 /* ts_.c in Sources */,
+				OBJ_587 /* txt_db.c in Sources */,
+				OBJ_588 /* ui_.c in Sources */,
+				OBJ_589 /* uid.c in Sources */,
+				OBJ_590 /* v3_.c in Sources */,
+				OBJ_591 /* v3_lib.c in Sources */,
+				OBJ_592 /* v3err.c in Sources */,
+				OBJ_593 /* wp_.c in Sources */,
+				OBJ_594 /* wrap128.c in Sources */,
+				OBJ_595 /* x509_.c in Sources */,
+				OBJ_596 /* x509cset.c in Sources */,
+				OBJ_597 /* x509name.c in Sources */,
+				OBJ_598 /* x509rset.c in Sources */,
+				OBJ_599 /* x509spki.c in Sources */,
+				OBJ_600 /* x509type.c in Sources */,
+				OBJ_601 /* x_.c in Sources */,
+				OBJ_602 /* xcbc_enc.c in Sources */,
+				OBJ_603 /* xts128.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_610 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_616 /* http_parser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_623 /* adler32.c in Sources */,
+				OBJ_624 /* compress.c in Sources */,
+				OBJ_625 /* crc32.c in Sources */,
+				OBJ_626 /* deflate.c in Sources */,
+				OBJ_627 /* gzclose.c in Sources */,
+				OBJ_628 /* gzlib.c in Sources */,
+				OBJ_629 /* gzread.c in Sources */,
+				OBJ_630 /* gzwrite.c in Sources */,
+				OBJ_631 /* infback.c in Sources */,
+				OBJ_632 /* inffast.c in Sources */,
+				OBJ_633 /* inflate.c in Sources */,
+				OBJ_634 /* inftrees.c in Sources */,
+				OBJ_635 /* trees.c in Sources */,
+				OBJ_636 /* uncompr.c in Sources */,
+				OBJ_637 /* zutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_644 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_650 /* Algorithms.swift in Sources */,
+				OBJ_651 /* ByteIO.swift in Sources */,
+				OBJ_652 /* Extensions.swift in Sources */,
+				OBJ_653 /* JWT.swift in Sources */,
+				OBJ_654 /* Keys.swift in Sources */,
+				OBJ_655 /* OpenSSLInternal.swift in Sources */,
+				OBJ_656 /* PerfectCrypto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_671 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_677 /* HTTPFilter.swift in Sources */,
+				OBJ_678 /* HTTPHeaders.swift in Sources */,
+				OBJ_679 /* HTTPMethod.swift in Sources */,
+				OBJ_680 /* HTTPRequest.swift in Sources */,
+				OBJ_681 /* HTTPResponse.swift in Sources */,
+				OBJ_682 /* MimeReader.swift in Sources */,
+				OBJ_683 /* MimeType.swift in Sources */,
+				OBJ_684 /* Routing.swift in Sources */,
+				OBJ_685 /* StaticFileHandler.swift in Sources */,
+				OBJ_686 /* TypedRoutes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_704 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_710 /* HTTP11Request.swift in Sources */,
+				OBJ_711 /* HTTP11Response.swift in Sources */,
+				OBJ_712 /* HPACK.swift in Sources */,
+				OBJ_713 /* HTTP2.swift in Sources */,
+				OBJ_714 /* HTTP2Client.swift in Sources */,
+				OBJ_715 /* HTTP2Frame.swift in Sources */,
+				OBJ_716 /* HTTP2FrameReader.swift in Sources */,
+				OBJ_717 /* HTTP2FrameWriter.swift in Sources */,
+				OBJ_718 /* HTTP2PrefaceValidator.swift in Sources */,
+				OBJ_719 /* HTTP2Request.swift in Sources */,
+				OBJ_720 /* HTTP2Response.swift in Sources */,
+				OBJ_721 /* HTTP2Session.swift in Sources */,
+				OBJ_722 /* HTTP2SessionSettings.swift in Sources */,
+				OBJ_723 /* HTTPContentCompression.swift in Sources */,
+				OBJ_724 /* HTTPMultiplexer.swift in Sources */,
+				OBJ_725 /* HTTPServer.swift in Sources */,
+				OBJ_726 /* HTTPServerEx.swift in Sources */,
+				OBJ_727 /* HTTPServerExConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_750 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_755 /* Bytes.swift in Sources */,
+				OBJ_756 /* Dir.swift in Sources */,
+				OBJ_757 /* File.swift in Sources */,
+				OBJ_758 /* JSONConvertible.swift in Sources */,
+				OBJ_759 /* Log.swift in Sources */,
+				OBJ_760 /* PerfectError.swift in Sources */,
+				OBJ_761 /* PerfectServer.swift in Sources */,
+				OBJ_762 /* SysProcess.swift in Sources */,
+				OBJ_763 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_770 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_775 /* Net.swift in Sources */,
+				OBJ_776 /* NetAddress.swift in Sources */,
+				OBJ_777 /* NetEvent.swift in Sources */,
+				OBJ_778 /* NetNamedPipe.swift in Sources */,
+				OBJ_779 /* NetTCP.swift in Sources */,
+				OBJ_780 /* NetTCPSSL.swift in Sources */,
+				OBJ_781 /* NetUDP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_796 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_801 /* Promise.swift in Sources */,
+				OBJ_802 /* ThreadQueue.swift in Sources */,
+				OBJ_803 /* Threading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_810 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_816 /* WebSocketHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_835 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_841 /* main.swift in Sources */,
+				7906E74020EB6DD500A52E12 /* Game.swift in Sources */,
+				7906E74220EB6E6A00A52E12 /* GameHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_868 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "COpenSSL::COpenSSL" /* COpenSSL */;
+			targetProxy = 7906E71120EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectThread::PerfectThread" /* PerfectThread */;
+			targetProxy = 7906E71220EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectLib::PerfectLib" /* PerfectLib */;
+			targetProxy = 7906E71320EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectNet::PerfectNet" /* PerfectNet */;
+			targetProxy = 7906E70F20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
+			targetProxy = 7906E71720EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "COpenSSL::COpenSSL" /* COpenSSL */;
+			targetProxy = 7906E71820EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectThread::PerfectThread" /* PerfectThread */;
+			targetProxy = 7906E71920EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectLib::PerfectLib" /* PerfectLib */;
+			targetProxy = 7906E71A20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectCZlib::PerfectCZlib" /* PerfectCZlib */;
+			targetProxy = 7906E72220EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectHTTP::PerfectHTTP" /* PerfectHTTP */;
+			targetProxy = 7906E72320EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectNet::PerfectNet" /* PerfectNet */;
+			targetProxy = 7906E72420EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
+			targetProxy = 7906E72520EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "COpenSSL::COpenSSL" /* COpenSSL */;
+			targetProxy = 7906E72620EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectThread::PerfectThread" /* PerfectThread */;
+			targetProxy = 7906E72720EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectLib::PerfectLib" /* PerfectLib */;
+			targetProxy = 7906E72820EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectHTTPServer::PerfectCHTTPParser" /* PerfectCHTTPParser */;
+			targetProxy = 7906E72920EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
+			targetProxy = 7906E71020EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "COpenSSL::COpenSSL" /* COpenSSL */;
+			targetProxy = 7906E71420EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectThread::PerfectThread" /* PerfectThread */;
+			targetProxy = 7906E71520EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectLib::PerfectLib" /* PerfectLib */;
+			targetProxy = 7906E71620EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectHTTP::PerfectHTTP" /* PerfectHTTP */;
+			targetProxy = 7906E70E20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectNet::PerfectNet" /* PerfectNet */;
+			targetProxy = 7906E71B20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
+			targetProxy = 7906E71C20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "COpenSSL::COpenSSL" /* COpenSSL */;
+			targetProxy = 7906E71D20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectThread::PerfectThread" /* PerfectThread */;
+			targetProxy = 7906E71E20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectLib::PerfectLib" /* PerfectLib */;
+			targetProxy = 7906E71F20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectWebSockets::PerfectWebSockets" /* PerfectWebSockets */;
+			targetProxy = 7906E72020EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectHTTPServer::PerfectHTTPServer" /* PerfectHTTPServer */;
+			targetProxy = 7906E72120EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectCZlib::PerfectCZlib" /* PerfectCZlib */;
+			targetProxy = 7906E72A20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectHTTP::PerfectHTTP" /* PerfectHTTP */;
+			targetProxy = 7906E72B20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectNet::PerfectNet" /* PerfectNet */;
+			targetProxy = 7906E72C20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectCrypto::PerfectCrypto" /* PerfectCrypto */;
+			targetProxy = 7906E72D20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "COpenSSL::COpenSSL" /* COpenSSL */;
+			targetProxy = 7906E72E20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectThread::PerfectThread" /* PerfectThread */;
+			targetProxy = 7906E72F20EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectLib::PerfectLib" /* PerfectLib */;
+			targetProxy = 7906E73020EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+		OBJ_862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectHTTPServer::PerfectCHTTPParser" /* PerfectCHTTPParser */;
+			targetProxy = 7906E73120EB68D700A52E12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/COpenSSL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = COpenSSL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = COpenSSL;
+			};
+			name = Debug;
+		};
+		OBJ_370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/COpenSSL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = COpenSSL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = COpenSSL;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectCHTTPParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCHTTPParser;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectCHTTPParser;
+			};
+			name = Debug;
+		};
+		OBJ_614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectCHTTPParser_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCHTTPParser;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectCHTTPParser;
+			};
+			name = Release;
+		};
+		OBJ_620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectCZlib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCZlib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectCZlib;
+			};
+			name = Debug;
+		};
+		OBJ_621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectCZlib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCZlib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PerfectCZlib;
+			};
+			name = Release;
+		};
+		OBJ_641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectCrypto_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCrypto;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectCrypto;
+			};
+			name = Debug;
+		};
+		OBJ_648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectCrypto_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectCrypto;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectCrypto;
+			};
+			name = Release;
+		};
+		OBJ_668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectHTTP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectHTTP;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectHTTP;
+			};
+			name = Debug;
+		};
+		OBJ_675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectHTTP_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectHTTP;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectHTTP;
+			};
+			name = Release;
+		};
+		OBJ_701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectHTTPServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectHTTPServer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectHTTPServer;
+			};
+			name = Debug;
+		};
+		OBJ_708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectHTTPServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectHTTPServer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectHTTPServer;
+			};
+			name = Release;
+		};
+		OBJ_747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectLib;
+			};
+			name = Debug;
+		};
+		OBJ_753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectLib;
+			};
+			name = Release;
+		};
+		OBJ_767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectNet_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectNet;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectNet;
+			};
+			name = Debug;
+		};
+		OBJ_773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectNet_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectNet;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectNet;
+			};
+			name = Release;
+		};
+		OBJ_793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectThread_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectThread;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectThread;
+			};
+			name = Debug;
+		};
+		OBJ_799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectThread_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectThread;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectThread;
+			};
+			name = Release;
+		};
+		OBJ_807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectWebSockets_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectWebSockets;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectWebSockets;
+			};
+			name = Debug;
+		};
+		OBJ_814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/PerfectWebSockets_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectWebSockets;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerfectWebSockets;
+			};
+			name = Release;
+		};
+		OBJ_832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/TicTacToeServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = TicTacToeServer;
+			};
+			name = Debug;
+		};
+		OBJ_839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include",
+					"$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include",
+				);
+				INFOPLIST_FILE = TicTacToeServer.xcodeproj/TicTacToeServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = TicTacToeServer;
+			};
+			name = Release;
+		};
+		OBJ_865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "TicTacToeServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_368 /* Build configuration list for PBXNativeTarget "COpenSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_369 /* Debug */,
+				OBJ_370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_606 /* Build configuration list for PBXNativeTarget "COpenSSLPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_607 /* Debug */,
+				OBJ_608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_612 /* Build configuration list for PBXNativeTarget "PerfectCHTTPParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_613 /* Debug */,
+				OBJ_614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_619 /* Build configuration list for PBXNativeTarget "PerfectCZlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_620 /* Debug */,
+				OBJ_621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_640 /* Build configuration list for PBXNativeTarget "PerfectCZlibPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_641 /* Debug */,
+				OBJ_642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_646 /* Build configuration list for PBXNativeTarget "PerfectCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_647 /* Debug */,
+				OBJ_648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_667 /* Build configuration list for PBXNativeTarget "PerfectCryptoPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_668 /* Debug */,
+				OBJ_669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_673 /* Build configuration list for PBXNativeTarget "PerfectHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_674 /* Debug */,
+				OBJ_675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_700 /* Build configuration list for PBXNativeTarget "PerfectHTTPPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_701 /* Debug */,
+				OBJ_702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_706 /* Build configuration list for PBXNativeTarget "PerfectHTTPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_707 /* Debug */,
+				OBJ_708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_746 /* Build configuration list for PBXNativeTarget "PerfectHTTPServerPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_747 /* Debug */,
+				OBJ_748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_751 /* Build configuration list for PBXNativeTarget "PerfectLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_752 /* Debug */,
+				OBJ_753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_766 /* Build configuration list for PBXNativeTarget "PerfectLibPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_767 /* Debug */,
+				OBJ_768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_771 /* Build configuration list for PBXNativeTarget "PerfectNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_772 /* Debug */,
+				OBJ_773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_792 /* Build configuration list for PBXNativeTarget "PerfectNetPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_793 /* Debug */,
+				OBJ_794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_797 /* Build configuration list for PBXNativeTarget "PerfectThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_798 /* Debug */,
+				OBJ_799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_806 /* Build configuration list for PBXNativeTarget "PerfectThreadPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_807 /* Debug */,
+				OBJ_808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_812 /* Build configuration list for PBXNativeTarget "PerfectWebSockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_813 /* Debug */,
+				OBJ_814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_831 /* Build configuration list for PBXNativeTarget "PerfectWebSocketsPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_832 /* Debug */,
+				OBJ_833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_837 /* Build configuration list for PBXNativeTarget "TicTacToeServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_838 /* Debug */,
+				OBJ_839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_864 /* Build configuration list for PBXNativeTarget "TicTacToeServerPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_865 /* Debug */,
+				OBJ_866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
